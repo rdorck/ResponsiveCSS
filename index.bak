@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--google analytics verification code - do not remove -
+<meta name="google-site-verification" content="JEiMBjgvX1yE8Sx9S-0eAmQjvEF-qZM5BS2yrv0drAw" />-->
+<title>Computer &amp; Information Sciences at the University of Delaware</title>
+<link href="/css/slideshow_features.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.udel.edu/includes1/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://www.udel.edu/includes1/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="http://www.udel.edu/includes1/jquery.easing.1.1.1.js"></script>
+<script type="text/javascript" src="/js/slideshow_guts.js"></script>
+<!--#include virtual="/includes/meta.html"-->
+<link href="/css/style_front.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--#include virtual="/includes/header.html"-->
+<!--#include virtual="/includes/nav.html"-->
+<div id="body">
+<div id="maincontent">
+  <div class="topwrapper">
+    <!-- start SlideShow -->
+    <div class="topcontent">
+      <div class="feature">
+      <div id="nav"></div>
+<div id="mainslideshow">
+<!-- SLIDE 1 -->
+   <div><a title="Unique research" href="http://www.udel.edu/udaily/2013/feb/arctic-sea-ice-022813.html"><img src="http://www.udel.edu/udaily/2013/feb/images/CathySurveyingOnIce.jpg" alt="UD’s Cathleen Geiger and her research team are traveling to the Arctic to measure sea ice." width="600" height="400" border="0" /></a>
+      <div class="cover boxcaption">
+       <h1><a title="Unique research" href="http://www.udel.edu/udaily/2013/feb/arctic-sea-ice-022813.html">Arctic sea ice</a></h1>
+      <h2><a title="Unique research" href="http://www.udel.edu/udaily/2013/feb/arctic-sea-ice-022813.html">UD researchers, students partner with Naval Academy in Arctic training exercises</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+  <div>
+     <a title="Supercomputing" href="http://www.udel.edu/udaily/2011/apr/supercomputing-041411.html"><img src="http://www.udel.edu/udaily/2011/apr/images/Gao-ExtremeComputingWorkshop.jpg" alt="Supercomputing" width="600" height="400" border="0" /></a>
+      <div class="cover boxcaption">
+       <h1><a title="Supercomputing" href="http://www.udel.edu/udaily/2011/apr/supercomputing-041411.html">Supercomputing experts at UD</a></h1>
+      <h2><a title="Supercomputing" href="http://www.udel.edu/udaily/2011/apr/supercomputing-041411.html">Workshop highlights computing advances, challenges</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+ <div>
+     <a title="NSF Grant" href="http://www.udel.edu/udaily/2013/may/nsf-i-corps-051413.html"><img src="http://www.udel.edu/udaily/2013/may/images/Cavazos_Alvarez_Traffic_Congestion-007.jpg" alt="John Cavazos (left) and Marco Alvarez have received an NSF I-Corps grant to develop a system to detect traffic congestion." width="600" height="400" border="0" /></a>
+      <div class="cover boxcaption">
+      <h1><a title="NSF Grant" href="http://www.udel.edu/udaily/2013/may/nsf-i-corps-051413.html">Engineering an entrepreneur</a></h1>
+      <h2><a title="NSF Grant" href="http://www.udel.edu/udaily/2013/may/nsf-i-corps-051413.html">Nontraditional NSF grant puts UD researchers on fast track to new ideas</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+   <div>
+     <img src="http://www.udel.edu/udaily/2014/dec/images/hoppercisftrb.jpg" alt="Graduate Studies" width="600" height="400" border="0" />
+      <div class="cover boxcaption">
+      <h1>Undergraduate Diversity</h1>
+      <h2><a title="Women in Computing" href="http://www.udel.edu/udaily/2014/dec/for-the-record-120613.html">2013 Grace Hopper Celebration of Women in Computing</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+   <div>
+     <a title="NSF grant" href="http://www.udel.edu/udaily/2013/apr/cloud-computing-042913.html"><img src="http://www.udel.edu/udaily/2013/apr/images/TauferStudents.jpg" alt="Michela Taufer (seated) works with students, including Trilce Estrada (right)." width="600" height="400" border="0" /></a>
+      <div class="cover boxcaption">
+      <h1><a title="NSF grant" href="http://www.udel.edu/udaily/2013/apr/cloud-computing-042913.html">Cloud improvements</a></h1>
+      <h2><a title="NSF grant" href="http://www.udel.edu/udaily/2013/apr/cloud-computing-042913.html">UD professor receives NSF grant to develop more efficient cloud computing</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+  <div>
+     <a title="Computing Projects" href="http://www.udel.edu/udaily/2013/apr/scholars-posters-042313.html"><img src="http://www.udel.edu/udaily/2013/apr/images/SummerSchlrsPosterPrsnt_041913-002b.jpg" alt="Michael Matheny explains UD's Docking@Home project." width="600" height="400" border="0" /></a>
+      <div class="cover boxcaption">
+       <h1><a title="Computing Projects" href="http://www.udel.edu/udaily/2013/apr/scholars-posters-042313.html">Summer scholars showcase</a></h1>
+      <h2><a title="Computing Projects" href="http://www.udel.edu/udaily/2013/apr/scholars-posters-042313.html">Undergraduate researchers present posters in engineering, sciences</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+  <div>
+     <a title="Teaching teachers" href="http://www.udel.edu/udaily/2014/jul/computer-science-070313.html"><img src="http://www.udel.edu/udaily/2014/jul/images/CIS_workshop_55a.jpg" alt="UD faculty and Delaware teachers are collaborating to integrate computer science principles into public school curriculum." width="600" height="400" border="0" /></a>
+      <div class="cover boxcaption">
+       <h1><a title="Teaching teachers" href="http://www.udel.edu/udaily/2014/jul/computer-science-070313.html">Creating computational thinkers</a></h1>
+      <h2><a title="Teaching teachers" href="http://www.udel.edu/udaily/2014/jul/computer-science-070313.html">Workshop helps grade school teachers integrate computer science in classroom</a></h2>
+      </div>
+  </div>
+<!-- End Slide -->
+</div>
+</div>
+</div>
+<div style="float:right; padding-right:10px">
+
+<div id="box1">
+<h2>CIS Connections</h2>
+<p class="box1">&raquo;<a href="/connections/2013May.html">CIS eNews</a></p></div>
+
+<div id="box2">
+<h2>Undergraduate Programs</h2>
+<p class="box2">&raquo;<a href="/undergraduate/academics.html">Overview</a><br />
+&raquo;<a href="http://www.udel.edu/admissions/apply/" target="_blank">Admission Information</a></p></div>
+
+<div id="box3"><h2>Graduate Programs</h2>
+<p class="box3" style="margin-top:0; padding-top:3px">&raquo;<a href="/graduate/index.html">Overview</a><br />
+&raquo;<a href="/graduate/admissions.html">Admissions Information</a><br />
+&raquo;<a href="/graduate/affiliated.html">Affiliated Programs</a>
+</p></div>
+
+<div id="box4"><h2>Research</h2>
+<p class="box4">&raquo;<a href="/research/index.html">Overview</a></p>
+&raquo;<a href="http://www.cis.udel.edu/connections/2013May.html">CIS Connections Newsletter</a></p></div>
+
+</div></div></div>
+
+<!--BEGIN content-->
+<div id="content">
+<!--BEGIN latest-->
+<!-- end slideshow -->
+<!--begin post-->
+<div class="post">
+  <p>With the aid of computers, it is possible to solve problems previously well beyond the reach of human capability at speeds that are equal to the urgency created by the modern world. Problems recently considered far too complex to be treated quantitatively are now solved routinely. These same computers, which are helping to solve the problems of science, technology, government, and business, are widely applied in information systems of service to everyone and in automation systems to further reduce the toil of humankind. Their potential for extending human brainpower is just beginning to be appreciated.</p>
+<p>On behalf of the entire department, the chair <a href="/about/index.html">welcomes you</a>.</p>
+<!--<p>In recognition of the importance of these new concepts, techniques, and technology, the Department of Computer and Information Sciences offers four-year undergraduate programs leading to one of three degrees.</p>
+<ul>
+<li>The Bachelor of Science degree in Computer and Information Sciences provides a strong technical education in computer systems, software development, computational applications, and theory of computation.</li>
+<li>The Bachelor of Science degree in Information Systems is designed for students who want to apply expertise in computer science to the solution of business problems.</li>
+<li>The Bachelor of Arts degree in Computer and Information Sciences is intended for students who want the breadth of a liberal arts education with a major in computer science.</li></ul>
+<p>In conjunction with the University Honors Program, the Department also offers a program of study leading to an Honors B.A. or an Honors B.S. Honors students are strongly encouraged to become involved in faculty research projects. </p>
+<p>The latest information on these programs is available in the <a href="http://udcatalog.udel.edu/arts/Undergrad/ASUgPDF/ASUgCISC.pdf" target="_blank">UD catalog</a> and on the <a href="http://www.cis.udel.edu/drupalWeb/undergraduate/introduction" target="_blank">CIS undergraduate pages</a>. </p>
+<p>Courses are also provided for students in other areas who desire an understanding of the application of computers to the subject of their major interest.</p>-->
+</div>
+<!--#include virtual="/includes/news1.html"-->
+<br />
+<br />
+<!--AddThis Button BEGIN-->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4bf9cfc75d2967ad">
+<img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" class="alignright" /></a>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4bf9cfc75d2967ad"></script><br /><br />
+<!--AddThis Button END-->
+<div class="clear">&nbsp;</div></div>
+<!--END content-->
+<!--BEGIN sidebar-->
+<div id="sidebar">
+<!--begin popular news-->
+<!--#include virtual="/includes/promo.html"-->
+<!--#include virtual="/includes/events.html"-->
+<!--#include virtual="/includes/resources.html"-->
+<br /><br />
+</div>
+<!--end post-->
+<!--end tags-->
+<!--END right-->
+</div>
+<!--END sidebar-->
+<div class="break"></div>
+<!--END body-->
+<!--#include virtual="/includes/footer.html"-->
+<!--END wrapper-->
+</body>
+</html>

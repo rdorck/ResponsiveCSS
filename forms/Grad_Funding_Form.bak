@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Computer &amp; Information Sciences at UD: Grad Funding Form</title>
+<!--#include virtual="/includes/meta.html"-->
+<style type="text/css">
+.description {font-size:10px}
+</style>
+<script type="text/javascript">
+var requiredFields = new Array("date-submission", "student-name", "students-email-address", "academic-status", "student-type", "professor-offering-funding", "professors-email-address", "previous-funding", "funding-type", "duration", "date-effective", "date-end", "stipend-amount", "grant-code", "funding-source", "tuition-funding-code");
+var fieldNames = new Array("Date of Submission", "Student Name", "Student's Email", "Student's Academic Status", "Student Type", "Professor Offering Funding", "Professor's Email", "Previous Funding", "Funding Type", "Duration", "Date Effective", "Date End", "Stipend Amount", "Grant Code", "Tuition Funding Source", "Tuition Funding Code");
+var img = new Array(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1);
+var sta = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+// img is the index number corrosponding to elements.img[]
+// sta is the status (0,1,2): (blank, bang, star)
+// flags additional validation
+// 0=none, 1=email, 2=ssn, 3=pin, 4=date
+var flags=new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+var verboseErrors=new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+var optional=new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+</script>
+<script type="text/javascript" src="https://primus.nss.udel.edu/javascript/CheckFields.js"></script>
+</head>
+<body>
+<!--#include virtual="/includes/header.html"-->
+<!--#include virtual="/includes/nav.html"-->
+<div id="body">
+<div id="content" align="center" style="width:95%">
+<div class="post" style="text-align:left; width:95%">
+<h1>Forms</h1>
+<h2>Graduate Student Funding Form</h2>
+<form method="post" action="https://primus.nss.udel.edu/formsPro/collect.action" accept-charset="UTF-8" enctype="multipart/form-data" onsubmit="return(sub_form(this))" name="fundform">
+<input type="hidden" name="formId" value="CIS_Grad_Funding" />
+<input type="hidden" name="emails" value="tteresa@udel.edu, vcherry@udel.edu, chester@udel.edu, tglynch@udel.edu, mmm@udel.edu" />
+<p>This form will be used to keep track of how <em><strong>graduate</strong></em> students are funded.</p>
+<p>Please use this guide for funding levels during the 2013-2014 academic year: The general level of RA pay is $25K to $27K for the full year. That is, $19K to $21K for the academic year, plus $5K to $7K for the summer. The suggested minimum is $18K for the academic year, based on the current TA pay of $2K per month. With respect to the maximum, $23K + $6K is suggested.</p>
+<p>Remember: You will be also be responsible for funding 10 percent of the student's tuition, starting with the 2013 Fall semester.</p>
+<p><strong>All fields, except additional notes, must be completed.</strong></p><br />
+
+<p><label for="date-submission"><strong>Date of Submission: </strong></label> <input name="date-submission" id="date-submission" size="20" /> (use format mm/dd/yyyy)</p>
+
+<p> <label for="student-name"><strong>Student's Name: </strong></label> <input type="text" maxlength="128" name="student-name" id="student-name" size="60" /></p>
+
+<p><label for="students-email-address"><strong>Student's Email: </strong></label>
+<input type="text" id="students-email-address" name="students-email-address" size="60" /></p>
+
+<p><label><strong>Student's Academic Status: </strong></label> <label for="academic-status"><input type="radio" id="academic-status-1" name="academic-status" value="Sustaining" /> Sustaining</label> &nbsp; <label for="academic-status-2"><input type="radio" id="academic-status-2" name="academic-status" value="Not Sustaining" /> Not Sustaining</label></p>
+
+<p><label for="professor-offering-funding"><strong>Professor Offering Funding: </strong></label> <input type="text" maxlength="128" name="professor-offering-funding" id="professor-offering-funding" size="60" /></p>
+
+<p> <label for="professors-email-address"><strong>Professor's Email: </strong></label> <input type="text" id="professors-email-address" name="professors-email-address" size="60" /></p>
+
+<p><label><strong>Previous Funding: </strong></label> <label for="previous-funding-1"><input type="radio" id="previous-funding-1" name="previous-funding" value="Has been funded (TA, RA, GA, etc.) before (ask student)" /> Has been funded (TA, RA, GA, etc.) before (ask student)</label> <br />
+<label for="previous-funding-2"><input type="radio" id="previous-funding-2" name="previous-funding" value="A new Payroll record must be created (first-time funding)" /> A new Payroll record must be created (first-time funding)</label></p>
+
+<p><label><strong>Funding Type: </strong></label> <label for="funding-type-1"><input type="radio" id="funding-type-1" name="funding-type" value="TA" /> TA</label> &nbsp; <label for="funding-type-2"><input type="radio" id="funding-type-2" name="funding-type" value="RA" /> RA</label> &nbsp;
+
+<label for="funding-type-3"><input type="radio" id="funding-type-3" name="funding-type" value="GA" /> GA</label> &nbsp;
+
+<label for="funding-type-4"><input type="radio" id="funding-type-4" name="funding-type" value="Fellowship" /> Fellowship</label> &nbsp;
+</p>
+
+<p><label><strong>Duration: </strong></label> 
+<label for="duration-1"><input type="radio" id="duration-1" name="duration" value="9 month" /> 9 Month</label> &nbsp; 
+<label for="duration-2"><input type="radio" id="duration-2" name="duration" value="12 month" /> 12 Month</label> &nbsp; 
+<label for="duration-3"><input type="radio" id="duration-3" name="duration" value="Fall only" /> Fall only </label> &nbsp; 
+<label for="duration-4"><input type="radio" id="duration-4" name="duration" value="Spring only" />Spring only </label> &nbsp; 
+<label for="duration-5"><input type="radio" id="duration-5" name="duration" value="Summer" />Summer </label> &nbsp; 
+<label for="duration-6"><input type="radio" id="duration-6" name="duration" value="Other" />Other  </label></p>
+
+<p><label for="date-effective"><strong>Effective Date: </strong></label> <input name="date-effective" id="date-effective" size="20" /> (use format mm/dd/yyyy)
+<div class="description">The date funding will begin.</div></p>
+
+<p><label for="date-end"><strong>End Date: </strong></label> <input name="date-end" id="date-end" size="20" /> (use format mm/dd/yyyy)
+<div class="description">Fall contracts end January 15; Spring and 9-month contracts end May 31; Summer and 12-month contracts end August 31.</div></p>
+
+<p><label for="stipend-amount"><strong>Stipend Amount: </strong></label> <input type="text" maxlength="128" name="stipend-amount" id="stipend-amount" size="60" value="$0" />
+<div class="description">What is the total (not monthly) stipend being provided?</div></p>
+ 
+<p><label for="grant-code"><strong>Funding Grant Code: </strong></label> <input type="text" maxlength="128" name="grant-code" id="grant-code" size="60" />
+<div class="description">Under what grant will this student be funded?</div></p>
+
+<p><label for="funding-source"><strong>Funding source(s) for 10 percent of student's tuition reduction: </strong></label><br />
+<label for="funding-source-1"><input type="radio" id="funding-source-1" name="funding-source" value="Research Grant" /> Research Grant</label> &nbsp; 
+<label for="funding-source-2"><input type="radio" id="funding-source-2" name="funding-source" value="Faculty Supplemental Account" /> Faculty Supplemental Account</label> &nbsp;
+<label for="funding-source-3"><input type="radio" id="funding-source-3" name="funding-source" value="Student" /> Student</label> &nbsp;
+<label for="funding-source-4"><input type="radio" id="funding-source-4" name="funding-source" value="Other" /> Other</label> &nbsp;
+</p>
+
+<p><label for="grant-code"><strong>Tuition Funding Code(s): </strong></label> <input type="text" maxlength="128" name="tuition-funding-code" id="tuition-funding-code" size="60" /></p>
+
+<p><label for="additional-notes">Additional Notes: </label><br /><textarea cols="60" rows="5" name="additional-notes" id="additional-notes"></textarea></p>
+
+<p><input type="submit" name="submit" id="submit" value="Submit" /></p>
+
+</form>
+<br clear="all" />
+</div>
+<br />
+<div class="clear">&nbsp;</div></div>
+<div class="break"></div>
+<!--#include virtual="/includes/footer.html"-->
+</body>
+</html>

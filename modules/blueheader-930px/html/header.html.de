@@ -1,0 +1,70 @@
+<!-- HEADER - DO NOT MODIFY THIS AREA -->
+<noscript><div class="UDJavascriptWarning" align="center" >JavaScript ist erforderlich, um diese Seite richtig anzusehen.  Ermöglichen Sie bitte JavaScript, diese Seite zu befahren.</div></noscript>
+
+<div id="UDStandardHeader">
+<div id="UDStandardHeader_LayoutContainer">
+  <a href="http://www.udel.edu/" title="University of Delaware"><div id="UDStandardHeader_LogoStandin"><img src="/modules/blueheader-930px/images/background-print.jpg" border="0"/></div></a>
+  
+  <div id="UDStandardHeader_Toolbar">
+  
+  <!-- GOOGLE SEARCH - TO CUSTOMIZE THIS SEARCH PLEASE REFER TO http://www.udel.edu/ideacenter/howto/search/searchtools.html-->
+    <div id="UDStandardHeader_GSA">
+      <form method="get" action="http://gsa1.udel.edu/search" name="search">
+        <input id="UDSearchButton" src="/modules/blueheader-930px/images/search.gif" alt="Search" value="Search" type="image" align="middle" border="0" />
+        <input id="UDSearchField" name="q" size="24" maxlength="256" value="Besuchen durch Google" onfocus="UDGSAFormFieldFocus(this)" onblur="UDGSAFormFieldBlur(this)" type="text" />
+        <!--#exec cmd="/usr/local/apache/cgi-bin/mod-defaults header-gsa.html" -->
+      </form>
+    </div>  
+     <!-- END GOOGLE SEARCH --> 
+     
+    <div id="UDStandardHeader_MenuTier">
+      <ul id="UDStandardHeader_MenuList">
+        <li class="withsep2">
+          <a href="#" onclick="return false;">Mein&nbsp;UD</a>
+          <ul class="submenu">
+            <li class="withspace"><a href="http://www.udel.edu/udsis-student">UDSIS-Students</a></li>
+            <li class="withspace"><a href="http://www.udel.edu/udsis">UDSIS-Staff</a></li>
+            <li class="withspace"><a href="https://sakai.udel.edu/portal">Sakai</a></li>
+            <li class="withspace"><a href="http://www.udel.edu/webmail">E-mail</a></li>
+          </ul>
+        </li>
+        <li class="withsep"><a href="http://www.udel.edu/peoplesearch/">Leute</a></li>
+        <li class="withsep"><a href="http://www.udel.edu/maps/">Karten</a></li>
+        <li class="withsep"><a href="http://www.udel.edu/findit/">Untersuchen&nbsp;Es</a></li>
+        <li class="withsep">
+          <a href="http://www.udel.edu/findit/a-z.html">A-Z</a>
+          <ul class="submenu">
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=25#z">Z</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=24#y">Y</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=23#x">X</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=22#w">W</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=21#v">V</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=20#u">U</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=19#t">T</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=18#s">S</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=17#r">R</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=16#q">Q</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=15#p">P</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=14#o">O</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=13#n">N</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=12#m">M</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=11#l">L</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=10#k">K</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=9#j">J</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=8#i">I</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=7#h">H</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=6#g">G</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=5#f">F</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=4#e">E</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=3#d">D</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=2#c">C</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=1#b">B</a></li>
+            <li><a href="http://www.udel.edu/findit/a-z.html?tab=0#a">A</a></li>
+          </ul>
+        </li>
+        <li><a href="http://www.udel.edu/">UD&nbsp;Heim</a></li>
+      </ul>
+    </div>
+  </div>
+</div></div>
+<!-- END HEADER -->

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--google analytics verification code - do not remove -
+<meta name="google-site-verification" content="JEiMBjgvX1yE8Sx9S-0eAmQjvEF-qZM5BS2yrv0drAw" />-->
+<title>Mechanical Engineering at UD: About Us - Facilities</title>
+<!--#include virtual="/newsite/includes/meta.html"-->
+
+</head>
+<body>
+<!--#include virtual="/newsite/includes/header.html"-->
+<!--#include virtual="/newsite/includes/nav.html"-->
+<div id="body">
+<!--BEGIN content-->
+<div id="content" align="center">
+<!--begin post-->
+<div class="post">
+<h1>Research</h1>
+<h2>W. M. Keck Imaging Facility</h2>
+<p>Through a generous grant from the W. M. Keck Foundation, we have recently acquired a state-of-the-art facility for electron microscopy. The facility consists of two transmission electron microscopes (TEMs), a new JEOL 2010F ultra-high resolution field emission TEM, and a refurbished JEOL 2000FX analytical TEM.</p>
+<p>The JEOL FasTEM 2010F provides lattice imaging with a point resolution of 0.19 nm and an extended information limit near 0.10 nm. This instrument has many peripheral devices to enhance analysis, including scanning capability (STEM) with high-angle annular dark field detection, energy loss spectroscopy and imaging, and energy dispersive X-ray spectroscopy. In addition, this instrument is internet-ready, allowing for collaborative access and remote control of the instrument.</p>
+<p>The JEOL 2000FX is used as a general purpose TEM and as a teaching instrument. It has a point resolution of 0.29 nm and is equipped with STEM capability and energy dispersive X-ray spectroscopy.</p>
+<p>These instruments are equipped with a variety of specimen holders, allowing studies at temperatures from 20 K to 1270 K, cryogenic transfer studies, and studies with very low X-ray background.</p>
+<p>This facility also houses two scanning electron microscopes, a JEOL 840 SEM and a Philips PSEM 501.</p> 
+<div style="padding:10px; border:1px solid #ccc">
+<p><img src="/newsite/images/imaging_highresone.jpeg" width="94" height="113" align="right" style="margin:0 0 0 10px">High resolution image of the [110] projection in La2NiO4.058 taken on the JEOL 2010F FasTEM. The image was captured digitally using a Gatan Imaging Filter Multi-Scan Camera at 810K Magnification. The white box in the lower left-hand corner indicates the [110] projection of the 3.8 &Aring; x 12.6 &Aring; unit cell with space group I 4/m m m.<br clear="all" /></p>
+ <img src="/newsite/images/imaging_highrestwo.jpeg" width="156" height="192" align="right" style="margin:0 0 0 10px"> <img src="/newsite/images/imaging_equip.jpeg" width="140" height="211" align="left" style="margin:0 10px 0 0">
+<p>The structure of La2NiO4 in [110] projection. The NiO2 layers shown in pink and orange correspond to the rows of faint spots. The La2O2 layer shown in pink and blue correspond to the double rows of bright spots. The unit cell is I 4/mmm with a ~ 3.8 &Aring; and c ~ 12.6 &Aring;</p><br clear="all" /></div>
+</div>
+<!--AddThis Button BEGIN-->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4bf9cfc75d2967ad"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" class="alignright" /></a>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4bf9cfc75d2967ad"></script>
+<!--AddThis Button END-->
+<br />
+<div class="clear">&nbsp;</div></div>
+<!--END content-->
+<!--BEGIN sidebar-->
+<div id="sidebar">
+<!--begin popular news-->
+<div id="date">
+<script type="text/javascript">
+<!--
+    var now = new Date();
+    var days = new Array(
+      'Sunday','Monday','Tuesday',
+      'Wednesday','Thursday','Friday','Saturday');
+    var months = new Array(
+      'January','February','March','April','May',
+      'June','July','August','September','October',
+      'November','December');
+    var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+    function fourdigits(number)	{
+      return (number < 1000) ? number + 1900 : number;}
+    today =  days[now.getDay()] + ", " +
+       months[now.getMonth()] + " " +
+       date + ", " +
+       (fourdigits(now.getYear()));
+     document.write(today);
+//-->
+</script>
+</div>
+<!--#include virtual="/newsite/includes/news1.html"--><br clear="all" />
+<span class="alignright"> More <a href="/newsite/about/news.html">NEWS</a></span>
+<!--end popular posts-->
+<!--begin tags portal for webevent calendar items-->
+<!--#include virtual="/newsite/includes/events.html"-->
+<!--#include virtual="/newsite/includes/resources.html"-->
+</div>
+<!--end post-->
+<!--end tags-->
+<!--END right-->
+</div>
+<!--END sidebar-->
+<div class="break"></div></div>
+<!--END body-->
+<!--#include virtual="/newsite/includes/footer.html"-->
+<!--END wrapper-->
+</body>
+</html>

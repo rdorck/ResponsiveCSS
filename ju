@@ -1,0 +1,47 @@
+114c114
+< <!-- p class="box3" style="margin-top:0; padding-top:3px"-->
+---
+> <!-- p class="box3" style="margin-top:0; padding-top:3px"-->
+116,120c116,120
+< <!--
+<    This nice description now has no link... Could be merged into overview...
+< <p class="box3">&raquo;<a href="/graduate/affiliated.html">Affiliated Programs</a></p>
+< -->
+< <p class="box3">&raquo;<a href="/graduate/plannedcourses.html">2014/15 Course Plan</a></p>
+---
+> <!--
+>    This nice description now has no link... Could be merged into overview...
+> <p class="box3">&raquo;<a href="/graduate/affiliated.html">Affiliated Programs</a></p>
+> -->
+> <p class="box3">&raquo;<a href="/graduate/plannedcourses.html">2014/15 Course Plan</a></p>
+123c123
+< <!--
+---
+> <!--
+128c128
+< -->
+---
+> -->
+136a137
+> <!--
+140,141c141
+<   <br clear="all" />
+< <!--  <p>With the aid of computers, it is possible to solve problems previously well beyond the reach of human capability at speeds that are equal to the urgency created by the modern world. Problems recently considered far too complex to be treated quantitatively are now solved routinely. These same computers, which are helping to solve the problems of science, technology, government, and business, are widely applied in information systems of service to everyone and in automation systems to further reduce the toil of humankind. Their potential for extending human brainpower is just beginning to be appreciated.</p>
+---
+>   <p>With the aid of computers, it is possible to solve problems previously well beyond the reach of human capability at speeds that are equal to the urgency created by the modern world. Problems recently considered far too complex to be treated quantitatively are now solved routinely. These same computers, which are helping to solve the problems of science, technology, government, and business, are widely applied in information systems of service to everyone and in automation systems to further reduce the toil of humankind. Their potential for extending human brainpower is just beginning to be appreciated.</p>
+143c143,144
+< 
+---
+> -->
+> <!--
+151,152c152
+< <p>Courses are also provided for students in other areas who desire an understanding of the application of computers to the subject of their major interest.</p>
+< </div>
+---
+> <p>Courses are also provided for students in other areas who desire an understanding of the application of computers to the subject of their major interest.</p>
+153a154
+> </div>
+182c183
+< </html>
+---
+> </html>

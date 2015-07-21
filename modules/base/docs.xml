@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="/modules/documentation/xml/mod_doc.xsl"?>
+<module id="base">
+  <description>
+    <p>
+      This module provides the HTML elements that appear at the beginning on any .html file published on this system:  The &lt;DOCTYPE&gt; and &lt;html&gt; elements, the opening of the &lt;head&gt; element, and a bunch of stuff that by-default must appear inside the &lt;head&gt; element.
+    </p>
+    <p>
+      The default &lt;meta&gt; tags that get included on a page can be found in /www/htdocs/defaults/metatags.html.  To override, copy this file to your web directory and edit accordingly.  All templated pages in that directory (and sub-directories of it) will make use of the address you include in your local copy of metatags.html.
+    </p>
+    <p>
+      The default RSS feed links that get included on a page can be found in /www/htdocs/defaults/rss.html.  To override, copy this file to your web directory and edit accordingly.  All templated pages in that directory (and sub-directories of it) will make use of the address you include in your local copy of rss.html.
+    </p>
+    <p>
+      This module's html_leadin.html file includes the directives necessary to do Internet Explorer "fixups" for versions prior to 7.0.
+    </p>
+  </description>
+  <code-sample>&lt;!--#include virtual="/modules/base/html/html_leadin.html" --&gt;
+&lt;!--#include virtual="/modules/base/html/metatags.html" --&gt;
+
+&lt;!-- Now include any of your own &lt;head&gt; stuff --&gt;
+  &lt;link href="/modules/base/css/base.css" rel="stylesheet" type="text/css" /&gt;
+  &lt;link href="/modules/blueheader-fluid/css/header.css" rel="stylesheet" type="text/css" /&gt;
+  </code-sample>
+  <defaults>
+    <file>
+      <name>metatags.html</name>
+    </file>
+    <file>
+      <name>rss.html</name>
+    </file>
+  </defaults>
+  <css>
+    <file>
+      <name>base.css</name>
+    </file>
+  </css>
+  <html>
+    <file>
+      <name>html_leadin.html</name>
+      <position>at the absolute top of the document</position>
+    </file>
+    <file>
+      <name>xhtml-strict_leadin.html</name>
+      <position>at the absolute top of the document</position>
+    </file>
+    <file>
+      <name>metatags.html</name>
+      <position>following the inclusion of html_leadin.html</position>
+    </file>
+    <file>
+      <name>rss.html</name>
+      <position>optional; follows the inclusion of metatags.html</position>
+    </file>
+  </html>
+</module>

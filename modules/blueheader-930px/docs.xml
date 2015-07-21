@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="/modules/documentation/xml/mod_doc.xsl"?>
+<module id="blueheader-930px">
+  <description>
+    <p>
+      Implements a standardized UD page header with a fixed content width of 930 pixels.  The background of the header is a wavy blue gradient.  The header features a large-print graphical "University of Delaware" logo with the UD shield and a toolbar that includes a Google search form and links to common UD web services.
+    </p>
+    <p>
+      The default hidden HTML form fields for the Google search toolbar can be found in /www/htdocs/defaults/header-gsa.html.  To override the defaults, copy this file to your web directory and edit accordingly.  All templated pages in that directory (and sub-directories of it) will make use of the form fields you include in your local copy of header-gsa.html.
+    </p>
+  </description>
+  <defaults>
+    <file>
+      <name>header-gsa.html</name>
+    </file>
+  </defaults>
+  <css>
+    <file>
+      <name>header.css</name>
+    </file>
+  </css>
+  <html>
+    <file>
+      <name>header.ssi</name>
+      <languages>
+        <language default="default">en</language>
+        <language>de</language>
+      </languages>
+      <position>immediately after the &lt;body&gt; tag</position>
+    </file>
+  </html>
+  <js>
+    <file>
+      <name>header.js</name>
+      <dependencies />
+    </file>
+  </js>
+</module>

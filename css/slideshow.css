@@ -1,0 +1,82 @@
+/* CSS Document */
+
+/* Main Content */
+#maincontent {
+	width: 100%; 
+	text-align: left; /* this overrides the text-align: center on the body element. */		
+	background-color: #fff;
+	}
+
+
+
+.topwrapper { 
+	 width: 800px;
+	 w\idth: 800px; /*IE6 width*/
+	 height:300px;
+	 margin: 0px auto 0 auto;
+	 padding:0 15px 20px 15px;
+	}
+.topcontent { 
+	 width: 688px;
+	 w\idth: 688px; /*IE6 width*/
+	 padding:0;
+	 position:absolute;
+	 z-index:100;
+}
+
+
+
+/* Dare Home Page items */
+/* Main Slideshow nav */
+#nav { z-index: 50; position: absolute; bottom: 18px; right: 20px; }
+#nav a { margin:0 2px; padding: 2px 3px;  background: #000; text-decoration: none; color:#fff; font-size:8px; line-height:12px;}
+#nav a.activeSlide { background: #ea0; color:#000; }
+#nav a:focus { outline: none; }
+/* Main Slideshow */
+#mainslideshow { width: 688px; height: 330px; overflow:hidden; }
+#mainslideshow div { width: 688px; height: 330px; padding: 0px; color: #333; text-align: left;  }
+#mainslideshow div img { float: left; margin: 0; width: 688px; height: 330px; padding: 0px; background: #fff; visibility: hidden; }
+
+#mainslideshow div {top: 0; left: 0}
+ 
+#mainslideshow div .boxcaption h2{
+					padding: 0 0 0 20px;
+					color:#fff;
+					font-weight:normal;
+					font:14px "Lucida Grande", Arial, sans-serif;
+					line-height:26px;
+					background:#002663;
+				}
+#mainslideshow div .boxcaption h2 a{
+					padding: 0 ;
+					color:#fff;
+					font-weight:normal;
+					font:14px "Lucida Grande", Arial, sans-serif;
+					line-height:26px;
+					background:#002663;
+				}
+				
+#mainslideshow div .boxcaption{
+				position: absolute;
+				height: 55px;
+				width: 688px;
+				visibility: hidden;
+				
+ 			}
+#mainslideshow div .boxcaption {
+ 					top: 250px;
+ 					left: 0;}
+					
+#mainslideshow div .boxcaption h1 {padding: 0 0 0 20px; margin:0; color:#ffd200; font:32px Arial, sans-serif; letter-spacing:2px; line-height:42px; background-color:#111;
+filter: alpha(opacity=70);
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+   -moz-opacity: 0.70;
+   opacity:0.7;}
+#mainslideshow div .boxcaption h1 a {color:#ea0; font:32px Arial, sans-serif; letter-spacing:-1px; line-height:40px; text-decoration:none}
+#mainslideshow div .boxcaption h1 a:hover {color:#fff; font:32px Arial, sans-serif; letter-spacing:-1px; line-height:40px; text-decoration:none;}
+
+/* top slider */
+#s4 {width: 218px; height: 225px; background-color: #fff; margin:10px auto 5px auto; overflow:hidden}
+#s4 div {width: 218px; height: 225px; padding: 0px; color: #333; text-align: left}
+#s4 div img {float: left; margin: 0 10px 10px 0; width: 100px; height: 100px; padding: 0px; background: #fff}
+#s4 div {top: 0; left: 0}

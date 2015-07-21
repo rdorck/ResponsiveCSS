@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="JEiMBjgvX1yE8Sx9S-0eAmQjvEF-qZM5BS2yrv0drAw" />
+<title>Computer &amp; Information Sciences at UD: Graduate - Professional Development Award</title>
+<!--#include virtual="/includes/meta.html"-->
+</head>
+<body>
+<!--#include virtual="/includes/header.html"-->
+<!--#include virtual="/includes/nav.html"-->
+<div id="body">
+<!--BEGIN content-->
+<div id="content" align="center">
+<!--begin post-->
+<div class="post">
+<h1>Graduate</h1>
+<h2>Professional Development Award</h2>
+<h3>- funds for conference travel to present a paper</h3>
+<p> Graduate students presenting papers at conferences may apply to the Graduate Office and to the CIS Department Chair for travel support funds (a Professional Development Award).</p>
+<p> With approval of the Department Chair, the department will match Graduate Office funds. Departmental support is a required component of the application. If for some reason Grad Office support is not possible, it may still be possible to obtain funding from the Department Chair (in this case, use just steps 1 to 3 of the procedure outline below).</p>
+<p>Grad Office details may be found at <a href="http://www.udel.edu/gradoffice/financial/profdev.html" target="_blank">http://www.udel.edu/gradoffice/financial/profdev.html</a> and more specifically at <a href="http://www.udel.edu/gradoffice/forms/profdevaward.pdf" target="_blank">http://www.udel.edu/gradoffice/forms/profdevaward.pdf</a></p>
+<p>To begin the process, first obtain CIS Chair approval for the departmental matching funds.</p>
+<h4>Procedure:</h4>
+<ol>
+<li>Advisor submits nomination to the Chair (Grad Office item 3)</li>
+<li>Student submits summary (Grad Office item 2) and budget estimate (Grad Office item 5) to the Chair along with a draft of the paper to be presented at the conference.  The paper is for the Chair's information only, to give more of an idea as to the nature of the work being disseminated.  There is no need for it to be finished or polished for this step.</li>
+<li>The Chair informs the following of the department approval: student, advisor, and Graduate Academic Support Coordinator, Teresa Tritt.</li>
+<li>The student completes the application (Grad Office item 6) with assistance from both the Graduate Academic Support Coordinator, Teresa Tritt and the Office Coordinator, Vicki Cherry (specifically on administrative code for department matching funds).</li>
+<li>Graduate Academic Support Coordinator helps student to assure that all application materials are submitted to the Graduate Office.</li></ol>
+<p>A student may receive at most one travel award per year and at most two in all.</p>
+<p>These grants are becoming more competitive.  Two key items to note from the Graduate Office regarding submission of application:</p>
+<p>&quot;Applicants should submit well-crafted proposals that highlight the significance of their conference presentation to their career development, as well as the primacy of the conference to their field&quot; and &quot;It is fully anticipated that those students receiving external grant that support conference costs will utilize these funds first towards their conference participation.&quot;</p>
+<p>For clarification on any of the steps above, please contact Teresa Tritt, Graduate Academic Support Coordinator at 302-831-2713 or <a href="mailto:ttritt@udel.edu">ttritt@udel.edu</a></p>
+
+</div>
+<!--AddThis Button BEGIN-->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4bf9cfc75d2967ad"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" class="alignright" /></a>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4bf9cfc75d2967ad"></script>
+<!--AddThis Button END-->
+<br />
+<div class="clear">&nbsp;</div></div>
+<!--END content-->
+<!--BEGIN sidebar-->
+<div id="sidebar">
+<!--begin popular news-->
+
+<!--#include virtual="/includes/news1.html"-->
+<!--end popular posts-->
+<!--begin tags portal for webevent calendar items-->
+<!--#include virtual="/includes/events.html"-->
+<!--#include virtual="/includes/resources.html"-->
+</div>
+<!--end post-->
+<!--end tags-->
+<!--END right-->
+</div>
+<!--END sidebar-->
+<div class="break"></div>
+<!--END body-->
+<!--#include virtual="/includes/footer.html"-->
+<!--END wrapper-->
+</body>
+</html>

@@ -1,0 +1,30 @@
+/** BEGIN content **/
+#content {
+	width:700px; 
+	float:right; 
+	padding-bottom:20px
+}
+
+#content p {
+	margin-bottom:10px; 
+	margin-top:10px; 
+	line-height:1.5em
+}
+
+#content .post {
+	margin:0 10px; 
+	clear:both; 
+	text-align:left; 
+	border-bottom:dashed #CCC thin
+}
+/** END content **/
+
+/** BEGIN sidebar **/
+#sidebar {
+	width:250px; 
+	float:right; 
+	background-color:#003877;
+	margin:0 15px 0 5px; 
+	border-radius:5px; 
+	color:#fff
+}

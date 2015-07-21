@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="JEiMBjgvX1yE8Sx9S-0eAmQjvEF-qZM5BS2yrv0drAw" />
+<title>Computer &amp; Information Sciences at UD: Research</title>
+<!--#include virtual="/includes/meta.html"-->
+</head>
+<body>
+<!--#include virtual="/includes/header.html"-->
+<!--#include virtual="/includes/nav.html"-->
+<div id="body">
+<!--BEGIN content-->
+<div id="content" align="center">
+<!--begin post-->
+<div class="post">
+<h1>Research<img src="/images/QuakeCatcherNetwork-58.jpg" width="210" height="203" align="right" /></h1>
+<p>Brief summary of CIS laboratories: </p>
+<ul>
+  <li>Artificial Intelligence</li>
+  <li>Bioinformatics</li>
+  <li>Natural Language Processing</li>
+  <li>Computer Networks &amp; Distributed Systems</li>
+  <li>Computer Graphics</li>
+  <li>Compilers</li>
+  <li>Video/Image Modeling Synthesis</li>
+  <li>Dynamic Vision</li>
+  <li>High Performance Computing</li>
+  <li>Software Engineering</li>
+  <li>Theory of Computation</li>
+</ul>
+<p><strong>Bioinformatics and Computational Biology Laboratory</strong></p>
+<p><strong>421 Smith Hall, Professor Li Liao.</strong></p>
+<p><strong>205 Delaware Biotechnology Institute, Professor Cathy Wu and research
+    team: Professors Cecilia Arighi, Chuming Chen, Hongzhan Huang, Shawn Polson,
+    and Manabu Torii.</strong></p>
+<p>Bioinformatics and Computational Biology is an emerging field where biological
+  and computational disciplines converge.</p>
+<p>Dr. Liao's laboratory is developing algorithms and models that offer computational
+  solutions to important biological problems, which include: annotating biochemical
+  functions for proteins, predicting structure of transmembrane proteins, identifying
+  elements that regulate gene expression, and predicting protein-protein interactions.
+  One of the projects in the laboratory, funded by an NSF grant, is to develop
+  assembly algorithms for de novo genome sequencing using two next-generation
+  sequencing technologies which have been said to revolutionize genomic research
+  - decoding a human being's genome at cost less than $1000.<br />
+  Dr. Wu's team conducts research encompassing protein structure-function-network
+  analysis, biological text mining, biological ontology, computational systems
+  biology, and bioinformatics cyberinfrastructure. The Protein Information Resource
+  (PIR,<a href="http://proteininformationresource.org/">http</a><a href="http://proteininformationresource.org/">://</a><a href="http://proteininformationresource.org/">ProteinInformationResource</a><a href="http://proteininformationresource.org/">.</a><a href="http://proteininformationresource.org/">org</a>)
+  directed by Dr. Wu provides integrated databases and bioinformatics tools to
+  support genomics, proteomics and systems biology research and is accessible
+  by researchers worldwide with 10 million+ web hits/month from 100,000+ unique
+  sites. Funded by NSF, NIH and DOE grants, her team is developing a research
+  infrastructure for integrating, mining, analyzing, visualizing and modeling
+  high-throughput omics data in systems biology context to help basic understanding
+  of biology and facilitate drug discovery, disease diagnosis, and energy and
+  environment studies.<br />
+  <strong> </strong></p>
+<p><strong>Computational Biomedicine Laboratory</strong><br />
+  <strong><br />
+    111 Elkton Rd., Professor Hagit Shatkay.</strong></p>
+<p>We are interested in finding computational solutions to current biomedical
+  problems. In the laboratory we develop and use algorithms and machine learning
+  methods to  explain and predict biological processes and medical outcomes.
+  In particular we are interested in mining biomedical text, analyzing patient
+  data as well as genomic and proteomic sequence data, predicting protein subcellular
+  location, biomedical image analysis,  and integrating biological and medical
+  data from multiple sources and types to address problems presented to us by
+  biologists and physicians.</p>
+<p>&nbsp;</p>
+<p><strong>Graphics &amp; Imaging Laboratory (GILab)</strong></p>
+<p><strong>119 Elkton Road, Professor Jingyi Yu.</strong></p>
+<p>The 10 megapixel digital camera is not the be-all and end-all of image capture.
+  Cameras that capture images in unusual ways and combinations of cameras can
+  deliver useful display of three-dimensional (3D) information. Our laboratory
+  focuses on designing new generations of cameras that can capture rich information
+  as such. We also conduct research in a broad range of topics in computer graphics
+  and vision, including real-time rendering, geometric modeling, computational
+  imaging/photography and visual analytics.</p>
+<p> <br />
+  <strong>Dynamic Vision Laboratory</strong></p>
+<p><strong>211 Smith Hall, Professor Christopher Rasmussen.</strong></p>
+<p>We study problems at the juncture of computer vision and robotics. From following
+  roads and cars in a robot race to creating models of buildings from handheld
+  video to tracking people, we work on efficient algorithms for navigation, scene
+  understanding, and interaction.</p>
+<p> <br />
+  <strong>VIMS Vision Laboratory</strong></p>
+<p><strong>212 Smith Hall, Professor Chandra Kambhametu.</strong></p>
+<p>VIMS (Video/Image Modeling and Synthesis) Lab encompasses research in areas
+  related to computer vision and graphics.  Our current research topics include
+  camera systems, structure and motion recovery, stereo vision, facial image
+  analysis, medical image analysis, object recognition and scene understanding,
+  scientific visualization. Work done at VIMS explores solutions to challenging
+  real-world problems such as Arctic ice motion and thickness studies, medical
+  diagnosis and assistive robotics.</p>
+<p> <br />
+  <strong>Cavazos Laboratory</strong></p>
+<p><strong>208 Smith Hall, Professor John Cavazos.</strong></p>
+<p>The Cavazos Laboratory conducts research on the application of machine learning
+  techniques to build intelligent software systems.  We work on intelligent and
+  iterative compilation and auto-tuning for computer systems, spanning embedded
+  computers to large-scale supercomputers.  We perform research in the construction
+  and tuning of compilers and in using machine-learning algorithms to solve hard
+  systems problems.</p>
+<p> <br />
+  <strong>Software Analysis and Compilation Laboratory</strong></p>
+<p><strong>213 Smith Hall, Professor Lori Pollock.</strong></p>
+<p>Our research focuses on program analysis to automate and semi-automate tedious
+  and error-prone tasks typically performed by software engineers, testers, and
+  scientists.  Current research projects include applying natural language processing
+  techniques to perform textual analysis of software artifacts and using that
+  information for automatically generating documentation from source code, improving
+  code search and feature location, and improving other software maintenance
+  tools.  We are also investigating various aspects of green software engineering
+  to enable software designers to make energy-conscious design decisions.  In
+  software testing, we are developing techniques to automatically generate tests
+  for web applications.  Other projects focus on optimizing compilers for modern
+  parallel architectures.</p>
+<p> <br />
+  <strong>Program Analysis and Debugging Laboratory</strong></p>
+<p><strong>429 Smith Hall, Professor James (Jim) Clause.</strong></p>
+<p>This research group focuses on developing tools and techniques to improve
+  software quality by simplifying the detection and debugging of software faults.
+  Current projects include investigating how dynamic tainting can be used to
+  help guide developers in fixing common programming mistakes such as memory
+  leaks and other types of failures. The group is also investigating how information
+  can be safely and efficiently collected from software users and how such information
+  can be used to improve the software development process.</p>
+<p><strong> </strong><br />
+  <strong>Verified Software Laboratory</strong></p>
+<p><strong>421 Smith Hall, Professor Stephen Siegel.</strong></p>
+<p>The VSL conducts research into one of the most important problems in Software
+  Engineering: how to develop verifiably correct complex software systems. Currently,
+  the VSL is focusing on parallel programs used for scientific computation and
+  is developing tools that can find defects in these programs or establish their
+  correctness.  These tools are based on techniques from logic, compiler theory,
+  symbolic computation, and model checking.</p>
+<p> <br />
+  <strong>Protocol Engineering Laboratory (PEL)</strong></p>
+<p><strong>28 West Delaware Ave, Professor Paul Amer.</strong></p>
+<p>The PEL is dedicated to the research, development, and improvement of new
+  and existing computer network protocols. PEL researchers currently are investigating
+  innovative transport protocol alternatives to TCP and UDP, such as the SCTP
+  (stream control transport protocol) and MPTCP (multipath TCP), emphasizing
+  their use within army mobile ad-hoc networks, and Google's SPDY protocol for
+  faster web surfing.</p>
+<p> <br />
+  <strong>DEGAS Networking Laboratory</strong></p>
+<p><strong>214 Smith Hall, Professor Chien-Chung Shen.</strong></p>
+<p>The DEGAS (Distributed, EnerGy conscious, Ad hoc and Sensor/Space) Networking
+  Laboratory pursues advanced research in mobile wireless networks. Research
+  areas include mobile ad hoc networks, wireless sensor networks, wireless mesh
+  networks, dynamic spectrum access networks, underwater acoustic networks, and
+  ad hoc airborne networks, energy-aware protocols, and mobile cloud computing.</p>
+<p> <br />
+  <strong>Network Management and Optimization Laboratory</strong></p>
+<p><strong>342 Smith Hall, Professors Adarsh Sethi and Errol Lloyd.</strong></p>
+<p>Network management involves the design of techniques for the monitoring and
+  control of computer networks to ensure optimal performance and resource utilization.
+  We focus on fault management whose aim is to detect, diagnose, localize, and
+  recover from hardware and software failures and performance bottlenecks that
+  may plague a network. We are also interested in the management of wireless
+  networks including methods for managing mobility to provide seamless operation
+  of network services.<br />
+  In network optimization we aim to provide provably optimal or near optimal
+  solutions to a range of power specification and control problems arising in
+  wireless ad hoc and sensor networks. The primary focus is on topology control
+  (assigning power levels to network nodes so as to achieve a specified network
+  topology) in both stationary and mobile networks. Additional work includes
+  the study of relay node placement and of power back off as a collision resolution
+  mechanism.</p>
+<p><strong> </strong><br />
+  <strong>Global Computing Laboratory (GCLab)</strong></p>
+<p><strong>203 Smith Hall, Professor Michela Taufer.</strong></p>
+<p>The Global Computing Laboratory focuses on various aspects of high performance
+  computing (HPC) and its application to the sciences. We are engaged in the
+  design and testing of efficient computational algorithms and adaptive scheduling
+  policies for scientific computing on GPUs, cloud computing, and volunteer computing.
+  Interdisciplinary research with scientists and engineers in fields such as
+  chemistry and chemical engineering, pharmaceutical sciences, seismology, and
+  mathematics is at the core of our activities and philosophy.</p>
+<p> <br />
+  <strong>LinBox Laboratory</strong></p>
+<p><strong>119 Elkton Road, Professor David Saunders, Research Associate Professor
+    David Wood.</strong></p>
+<p>We design algorithms and high performance implementations for exact linear
+  algebra computation. Exact linear algebra with matrices of integers is harder
+  than the more widely used approximate linear algebra in floating point.  Our
+  work contributes to LinBox, a software library for solving exact systems exactly.
+  It is developed by a team of researchers in the US, France, and Canada<br />
+   </p>
+<p><strong>Multi Agent Systems Laboratory (MAS Lab)</strong></p>
+<p><strong>447 Smith Hall, Professor Keith Decker.</strong></p>
+<p>An agent is a computer system capable of flexible, autonomous action in dynamic
+  multi-agent environments. The success of the Internet has shown that computing
+  is no longer only about fast numerical calculation, or isolated information
+  processing. It is now also about interaction and coordination amongst machines,
+  and between machines and people. The MAS laboratory focuses on the science
+  of coordination in applications ranging from distributed energy management
+  and emergency response support to scientific information gathering.<br />
+   </p>
+<p><strong>Human Language Technologies Laboratory</strong></p>
+<p><strong>100 Elkton Road, Professors Sandra Carberry and Kathy McCoy.</strong></p>
+<p>The Human Language Technology Laboratory is an umbrella for two language-related
+  laboratories: disabilities technology and discourse. The laboratory closely
+  collaborates with the Statistical Information Retrieval Laboratory and the
+  Text Mining Laboratory.</p>
+<p>The Disabilities Technology Laboratory, directed by Kathy McCoy, develops
+  intelligent interfaces for people with disabilities that affect their ability
+  to communicate. The ICICLE System is an intelligent English grammar checker
+  and tutor for people who are deaf. Other projects assist people who have special
+  communication needs. We make &quot;talking with&quot; a computer faster and
+  more natural. Another project is to help a person who has visual impairments &quot;scan&quot; a
+  text to find the area relevant to answering a question.</p>
+<p>The Discourse Laboratory, under the direction of Sandra Carberry, addresses
+  problems related to discourse and dialogue. The Graphs project treats information
+  graphics (bar charts, line graphs, etc.) as a form of discourse with a communicative
+  goal. We are applying language understanding and generation techniques to index,
+  store, and retrieve graphics from a digital library, to develop an interactive
+  dialogue system that conveys the content of graphics via speech to individuals
+  with sight impairments, and to develop an interactive graph design assistant
+  that will critique graphs with the objective of improving them so that they
+  achieve their communicative goal. Current collaborators include Dr. Stephanie
+  Elzer (Millersville University), Dr. Dan Chester, and graduate students.<br />
+   </p>
+<p><strong>Statistical Information Retrieval Laboratory</strong></p>
+<p><strong>77/79 East Delaware Ave, Professor Ben Carterette.</strong></p>
+<p>The Statistical Information Retrieval Laboratory pursues novel models of information
+  organization, storage, access, retrieval, and integration using statistical
+  and information-theoretic approaches. One of the key problems in developing
+  such models is that optimizing and evaluating their utility requires human
+  input. We aim to minimize the human cost, or to accomplish much more with an
+  allotted cost, thereby allowing research and development to proceed much faster.<br />
+   </p>
+<p><strong>Text Mining Laboratory</strong></p>
+<p><strong>102 Smith Hall, Professor Vijay Shanker.</strong></p>
+<p>The Text Mining Laboratory, directed by Vijay Shanker, is concerned with the
+  development of language technology algorithms to assist scientists to rapidly
+  access relevant information from research literature. Projects include the
+  extraction of targeted information, retrieval of relevant textual passages,
+  and assistance in the knowledge discovery process. A related project involves
+  rapid adaptation of language processing tools that were developed for a general
+  domain to be used in a specific domain. A third project involves multi-disciplinary
+  effort that integrates natural language cues found in large software programs
+  and program analysis for multiple software development and maintenance tasks.<br />
+   </p>
+<p><strong>Computational Learning Laboratory</strong></p>
+<p><strong>342 Smith Hall, Professor John Case.</strong></p>
+<p>The members of the Computational Learning Laboratory do theoretical, mathematical
+  work regarding abstract machine models of, among other things, learning and
+  self-modeling.<br />
+</p></div>
+<!--AddThis Button BEGIN-->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4bf9cfc75d2967ad"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" class="alignright" /></a>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4bf9cfc75d2967ad"></script>
+<!--AddThis Button END-->
+<br />
+<div class="clear">&nbsp;</div></div>
+<!--END content-->
+<!--BEGIN sidebar-->
+<div id="sidebar">
+<!--begin popular news-->
+<div id="date">
+<script type="text/javascript">
+<!--
+    var now = new Date();
+    var days = new Array(
+      'Sunday','Monday','Tuesday',
+      'Wednesday','Thursday','Friday','Saturday');
+    var months = new Array(
+      'January','February','March','April','May',
+      'June','July','August','September','October',
+      'November','December');
+    var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+    function fourdigits(number)	{
+      return (number < 1000) ? number + 1900 : number;}
+    today =  days[now.getDay()] + ", " +
+       months[now.getMonth()] + " " +
+       date + ", " +
+       (fourdigits(now.getYear()));
+     document.write(today);
+//-->
+</script>
+</div>
+<!--#include virtual="/includes/news1.html"--><br clear="all" />
+<span class="alignright"> More <a href="/about/news.html">NEWS</a></span>
+<!--end popular posts-->
+<!--begin tags portal for webevent calendar items-->
+<!--#include virtual="/includes/events.html"-->
+<!--#include virtual="/includes/resources.html"-->
+</div>
+<!--end post-->
+<!--end tags-->
+<!--END right-->
+</div>
+<!--END sidebar-->
+<div class="break"></div>
+<!--END body-->
+<!--#include virtual="/includes/footer.html"-->
+<!--END wrapper-->
+</body>
+</html>

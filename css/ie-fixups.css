@@ -1,0 +1,7 @@
+body {
+  behavior: url("js/csshover.htc");
+}
+
+img {
+  behavior: url("js/pngbehavior.htc");
+}
