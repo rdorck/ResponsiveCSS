@@ -1,114 +1,34 @@
+
+
+
 body {
   background-image:url(../images/bg2bk.jpg); 
   background-repeat:repeat-x;
 }
 
-.bigtitle {
-    margin-top: 5px;
-    padding-left: 65px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #003877;
-    text-align: center;
-    text-decoration: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: "arial", Arial, Helvetica, sans-serif;
-    font-size: 38px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 122, 194)), to(rgb(0, 56, 119)));
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: #003877;
+body{
+    .wrapper {
+        .bigtitle {
+            @media only screen and (min-width: 480px) {
+                a:after {
+                    content: "Computer & Information Sciences";
+                    font-size: 50px;
+                    margin-left: 35%;
+                }   
+            }
+            @media only screen and (max-width: 765px) {
+                a:after {
+                    content: "CISC";
+                    font-size: 50px;
+                    margin-left: 35%;
+                }   
+            }
+        }
+
+        #navmenu {
+            list-style-type: none;
+        }
+    }
 }
 
-/* Root = Horizontal, Secondary = Vertical */
-ul#navmenu {
-	margin:0 0 0 50px; border:0 none; padding:5px 5px 5px 5px; width:980px; list-style:none; height:24px
-}
-
-ul.MenuBarActive {
-	z-index:1000}
-
-
-ul#navmenu li {
-	margin:0; border:0 none; padding:0; float:left; display:inline; list-style:none; position:relative; height:24px
-}
-
-ul#navmenu ul {
-	margin:0; border:0 none; padding:0; width:200px; list-style:none; display:none; position:absolute; top:24px; left:0; z-index:1500
-}
-
-ul#navmenu ul:after {
-	clear:both; display:block; font:1px/0px serif; content:"."; height:0; visibility:hidden
-}
-
-ul#navmenu ul li {
-	width:275px; float:left; display:block !important; display:inline
-}
-
-/* Root Menu */
-ul#navmenu a {
-	background-image:url(../SpryAssets/MainNavSpryMenuBarDown.gif); background-repeat:no-repeat; background-position:left; 
-	padding:1px 50px 5px 25px; float:none !important; float:left; display:block; color:#FFF; font:12px/22px Arial, Helvetica, sans-serif; 
-	text-decoration:none; height:auto !important; height:1%
-}
-
-/* Root Menu Hover Persistence */
-ul#navmenu a:hover, ul#navmenu li:hover a, ul#navmenu li.iehover a {
-	background: #00539F; color:#FFD200;
- padding:1px 50px 5px 25px
-}
-
-/* 2nd Menu */
-ul#navmenu li:hover li a, ul#navmenu li.iehover li a {
-	float:none; color:#FFF; padding:1px 20px 5px 25px; float:left; opacity:0.95; filter:alpha(opacity=95); -moz-opacity:0.95
-}
-	
-	
-/* 2nd Menu Hover Persistence */
-ul#navmenu li:hover li a:hover, ul#navmenu li:hover li:hover a, ul#navmenu li.iehover li a:hover, ul#navmenu li.iehover li.iehover a {
-	background:#00539F; color:#FFD200; padding:1px 20px 5px 25px
-}
-
-/* 3rd Menu */
-ul#navmenu li:hover li:hover li a, ul#navmenu li.iehover li.iehover li a {
-	color:#FFF;  padding:1px 10px 5px 15px; float:left; opacity:0.95; filter:alpha(opacity=95);  
-    -moz-opacity:0.95
-}
-
-/* 3rd Menu Hover Persistence */
-ul#navmenu li:hover li:hover li a:hover, ul#navmenu li:hover li:hover li:hover a, ul#navmenu li.iehover li.iehover li a:hover, ul#navmenu li.iehover li.iehover li.iehover a {
-	background:#00539F; color:#FFD200; padding:1px 10px 5px 15px
-}
-
-/* 4th Menu */
-ul#navmenu li:hover li:hover li:hover li a, ul#navmenu li.iehover li.iehover li.iehover li a {
-	color:#FFF;  padding:1px 20px 5px 15px; float:left; opacity:0.95; filter:alpha(opacity=95);  
-    -moz-opacity:0.95
-}
-	
-/* 4th Menu Hover */
-ul#navmenu li:hover li:hover li:hover li a:hover, ul#navmenu li.iehover li.iehover li.iehover li a:hover {
-	background:#00539F; color:#FFD200; padding:1px 20px 5px 15px
-}
-
-ul#navmenu ul ul, ul#navmenu ul ul ul {
-	display:none; position:absolute; top:0; left:200px
-}
-
-/* Do Not Move - Must Come Before display:block for Gecko */
-ul#navmenu li:hover ul ul, ul#navmenu li:hover ul ul ul, ul#navmenu li.iehover ul ul, ul#navmenu li.iehover ul ul ul {
-	display:none
-}
-
-ul#navmenu li:hover ul, ul#navmenu ul li:hover ul, ul#navmenu ul ul li:hover ul, ul#navmenu li.iehover ul, ul#navmenu ul li.iehover ul, ul#navmenu ul ul li.iehover ul {
-	display:block
-}
 
