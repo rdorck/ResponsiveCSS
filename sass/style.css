@@ -2,8 +2,8 @@ body {
   background-image: url(../images/bg2bk.jpg);
   background-repeat: repeat-x; }
 
-@media only screen and (min-width: 480px) {
-  body .wrapper .bigtitle a:after {
+@media only screen and (min-width: 765px) {
+  body .wrapper .bigtitle a:before {
     content: "Computer & Information Sciences";
     font-size: 50px;
     margin-left: 35%; } }
@@ -12,5 +12,24 @@ body {
     content: "CISC";
     font-size: 50px;
     margin-left: 35%; } }
+
+body .wrapper #body #maincontent .topwrapper .feature {
+  /*@media only and screen (max-width: 414px) {
+      #mainslideshow {
+          width:414px;
+          margin-bottom: 10px;
+      }
+  }*/ }
+@media only screen and (max-width: 414px) {
+  body .wrapper #body #maincontent .topwrapper #mainslideshow div div h1 a {
+    position: relative;
+    width: 414px; }
+  body .wrapper #body #maincontent .topwrapper #mainslideshow div div h2 a {
+    position: relative;
+    width: 414px; }
+  body .wrapper #body #maincontent .topwrapper div#box1 {
+    width: relative;
+    position: relative;
+    margin-top: 550px; } }
 
 /*# sourceMappingURL=style.css.map */

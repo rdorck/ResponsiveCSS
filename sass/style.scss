@@ -9,8 +9,8 @@ body {
 body{
     .wrapper {
         .bigtitle {
-            @media only screen and (min-width: 480px) {
-                a:after {
+            @media only screen and (min-width: 765px) {
+                a:before {
                     content: "Computer & Information Sciences";
                     font-size: 50px;
                     margin-left: 35%;
@@ -24,9 +24,47 @@ body{
                 }   
             }
         }
+    }
+}
 
-        #navmenu {
-            list-style-type: inline;
+body {
+    .wrapper{
+        #body {
+            #maincontent {
+                .topwrapper {
+                    .feature {
+                        /*@media only and screen (max-width: 414px) {
+                            #mainslideshow {
+                                width:414px;
+                                margin-bottom: 10px;
+                            }
+                        }*/
+                    }
+
+                    @media only screen and (max-width: 414px) {
+                        #mainslideshow {
+                            div {
+                                div {
+                                    h1 a{
+                                        position: relative;
+                                        width:414px;
+                                    }
+                                    h2 a{
+                                        position: relative;
+                                        width: 414px;
+                                    }
+                                }
+                            }
+
+                        }
+                        div#box1{
+                            width:relative;
+                            position:relative;
+                            margin-top: 550px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
