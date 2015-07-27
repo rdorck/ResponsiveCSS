@@ -2,27 +2,34 @@ body {
   background-image: url(../images/bg2bk.jpg);
   background-repeat: repeat-x; }
 
-@media only screen and (min-width: 420px) {
-  body .wrapper .bigtitle a:before {
-    content: "Computer & Information Sciences";
-    font-size: 50px;
-    margin-left: 35%; } }
-@media only screen and (max-width: 414px) {
-  body .wrapper .bigtitle a:after {
-    content: "CISC";
-    font-size: 50px;
-    margin-left: 35%; } }
-@media only screen and (max-width: 414px) {
-  body .wrapper #navmenu {
-    list-style-type: none;
-    display: block;
-    float: none;
-    width: 414px;
-    line-height: 50px;
-    border-bottom: 1px solid #fff; } }
-body .wrapper #navmenu li > a {
-  text-decoration: none;
-  color: #ffd200; }
+body .wrapper .bigtitle {
+  background-color: #003877;
+  background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877)); }
+  @media only screen and (min-width: 420px) {
+    body .wrapper .bigtitle a:before {
+      content: "Computer & Information Sciences";
+      font-size: 50px;
+      margin-left: 35%; } }
+  @media only screen and (max-width: 414px) {
+    body .wrapper .bigtitle a:after {
+      content: "CISC";
+      font-size: 50px;
+      margin-left: 35%; } }
+body .wrapper nav {
+  /*display:none;*/ }
+  body .wrapper nav #navmenu li > a {
+    text-decoration: none; }
+  @media only screen and (max-width: 414px) {
+    body .wrapper nav #navmenu {
+      list-style-type: none;
+      display: block;
+      float: none;
+      width: 414px;
+      line-height: 40px;
+      border-bottom: 1px solid #fff; } }
+  body .wrapper nav #navmenu li > a {
+    text-decoration: none;
+    color: #ffd200; }
 
 @media only screen and (max-width: 414px) {
   body .wrapper #body #maincontent .topwrapper #mainslideshow div {

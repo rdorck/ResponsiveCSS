@@ -1,5 +1,5 @@
-$yellow: #ffd200;
-
+$UDyellow: #ffd200;
+$titleBGC: #003877;
 
 body {
   background-image:url(../images/bg2bk.jpg); 
@@ -9,6 +9,8 @@ body {
 body{
     .wrapper {
         .bigtitle {
+            background-color: $titleBGC;
+            background:-webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
             @media only screen and (min-width: 420px) {
                 a:before {
                     content: "Computer & Information Sciences";
@@ -24,18 +26,24 @@ body{
                 }   
             }
         }
-        #navmenu{ 
-            @media only screen and (max-width: 414px) {
-                    list-style-type:none;
-                    display:block;
-                    float:none;
-                    width:414px;
-                    line-height: 50px;
-                    border-bottom: 1px solid #fff;
+        nav{
+            /*display:none;*/
+            #navmenu{ 
+                li > a{
+                    text-decoration: none;
                 }
-            li > a{
-                text-decoration: none;
-                color: $yellow;
+                @media only screen and (max-width: 414px) {
+                        list-style-type:none;
+                        display:block;
+                        float:none;
+                        width:414px;
+                        line-height: 40px;
+                        border-bottom: 1px solid #fff;
+                    }
+                li > a{
+                    text-decoration: none;
+                    color: $UDyellow;
+                }
             }
         }
     }
