@@ -1,4 +1,4 @@
-
+$yellow: #ffd200;
 
 
 body {
@@ -9,19 +9,33 @@ body {
 body{
     .wrapper {
         .bigtitle {
-            @media only screen and (min-width: 765px) {
+            @media only screen and (min-width: 420px) {
                 a:before {
                     content: "Computer & Information Sciences";
                     font-size: 50px;
                     margin-left: 35%;
                 }   
             }
-            @media only screen and (max-width: 765px) {
+            @media only screen and (max-width: 414px) {
                 a:after {
                     content: "CISC";
                     font-size: 50px;
                     margin-left: 35%;
                 }   
+            }
+        }
+        #navmenu{ 
+            @media only screen and (max-width: 414px) {
+                    list-style-type:none;
+                    display:block;
+                    float:none;
+                    width:414px;
+                    line-height: 50px;
+                    border-bottom: 1px solid #fff;
+                }
+            li > a{
+                text-decoration: none;
+                color: $yellow;
             }
         }
     }
@@ -32,35 +46,21 @@ body {
         #body {
             #maincontent {
                 .topwrapper {
-                    .feature {
-                        /*@media only and screen (max-width: 414px) {
-                            #mainslideshow {
-                                width:414px;
-                                margin-bottom: 10px;
-                            }
-                        }*/
-                    }
-
                     @media only screen and (max-width: 414px) {
+
                         #mainslideshow {
                             div {
-                                div {
-                                    h1 a{
-                                        position: relative;
-                                        width:414px;
-                                    }
-                                    h2 a{
-                                        position: relative;
-                                        width: 414px;
-                                    }
-                                }
+                                width:65%;
+                                font-size: 10px;
+                                text-align: center;
                             }
 
                         }
-                        div#box1{
-                            width:relative;
-                            position:relative;
-                            margin-top: 550px;
+                        div {
+                            #box1{
+                                width:100%;
+                                margin-top: 525px;
+                            }
                         }
                     }
                 }
@@ -68,5 +68,6 @@ body {
         }
     }
 }
+
 
 
