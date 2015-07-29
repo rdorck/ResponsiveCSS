@@ -1,15 +1,31 @@
 $UDyellow: #ffd200;
 $titleBGC: #003877;
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
-  background-image:url(../images/bg2bk.jpg); 
-  background-repeat:repeat-x;
+    font-family: sans-serif;
+    background-image:url(../images/bg2bk.jpg); 
+    background-repeat:repeat-x;
 }
 
 body{
-    .wrapper {
+    #wrapper {
+
+        @media only screen and (max-width: 414px) {
+            a:after {
+                content: "CISC";
+                font-size: 50px;
+                margin-left: 35%;
+            }   
+        }
+
         .bigtitle {
             background-color: $titleBGC;
+            
             background:-webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
             @media only screen and (min-width: 420px) {
                 a:before {
@@ -18,34 +34,16 @@ body{
                     margin-left: 35%;
                 }   
             }
-            @media only screen and (max-width: 414px) {
-                a:after {
-                    content: "CISC";
-                    font-size: 50px;
-                    margin-left: 35%;
-                }   
+            /**/
+        }
+        @each $item in div {
+
+            @each $row in ul {
+                 $color: $UDyellow;
+                border-bottom: 1px solid #fff;
             }
         }
-        nav{
-            /*display:none;*/
-            #navmenu{ 
-                li > a{
-                    text-decoration: none;
-                }
-                @media only screen and (max-width: 414px) {
-                        list-style-type:none;
-                        display:block;
-                        float:none;
-                        width:414px;
-                        line-height: 40px;
-                        border-bottom: 1px solid #fff;
-                    }
-                li > a{
-                    text-decoration: none;
-                    color: $UDyellow;
-                }
-            }
-        }
+
     }
 }
 
@@ -56,14 +54,6 @@ body {
                 .topwrapper {
                     @media only screen and (max-width: 414px) {
 
-                        #mainslideshow {
-                            div {
-                                width:65%;
-                                font-size: 10px;
-                                text-align: center;
-                            }
-
-                        }
                         div {
                             #box1{
                                 width:100%;
@@ -76,6 +66,27 @@ body {
         }
     }
 }
+
+/*.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+
+ cell number 
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}*/
 
 
 

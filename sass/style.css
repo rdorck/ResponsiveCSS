@@ -1,43 +1,53 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
+  font-family: sans-serif;
   background-image: url(../images/bg2bk.jpg);
   background-repeat: repeat-x; }
 
-body .wrapper .bigtitle {
-  background-color: #003877;
-  background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877)); }
-  @media only screen and (min-width: 420px) {
-    body .wrapper .bigtitle a:before {
-      content: "Computer & Information Sciences";
-      font-size: 50px;
-      margin-left: 35%; } }
+body #wrapper {
+  border-bottom: 1px solid #fff; }
   @media only screen and (max-width: 414px) {
-    body .wrapper .bigtitle a:after {
+    body #wrapper a:after {
       content: "CISC";
       font-size: 50px;
       margin-left: 35%; } }
-body .wrapper nav {
-  /*display:none;*/ }
-  body .wrapper nav #navmenu li > a {
-    text-decoration: none; }
-  @media only screen and (max-width: 414px) {
-    body .wrapper nav #navmenu {
-      list-style-type: none;
-      display: block;
-      float: none;
-      width: 414px;
-      line-height: 40px;
-      border-bottom: 1px solid #fff; } }
-  body .wrapper nav #navmenu li > a {
-    text-decoration: none;
-    color: #ffd200; }
+  body #wrapper .bigtitle {
+    background-color: #003877;
+    background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
+    /**/ }
+    @media only screen and (min-width: 420px) {
+      body #wrapper .bigtitle a:before {
+        content: "Computer & Information Sciences";
+        font-size: 50px;
+        margin-left: 35%; } }
 
 @media only screen and (max-width: 414px) {
-  body .wrapper #body #maincontent .topwrapper #mainslideshow div {
-    width: 65%;
-    font-size: 10px;
-    text-align: center; }
   body .wrapper #body #maincontent .topwrapper div #box1 {
     width: 100%;
     margin-top: 525px; } }
+
+/*.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+
+ cell number 
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}*/
 
 /*# sourceMappingURL=style.css.map */
