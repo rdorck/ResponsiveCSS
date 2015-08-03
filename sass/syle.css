@@ -1,0 +1,29 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  background-image: url(../images/bg2bk.jpg);
+  background-repeat: repeat-x; }
+
+@media only screen and (max-width: 414px) {
+  body .wrapper #body a:after {
+    content: "CISC";
+    font-size: 50px;
+    margin-left: 35%; } }
+body .wrapper #body .bigtitle {
+  background-color: #003877;
+  background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877)); }
+  @media only screen and (min-width: 420px) {
+    body .wrapper #body .bigtitle a:before {
+      content: "Computer & Information Sciences";
+      font-size: 50px;
+      margin-left: 35%; } }
+
+@media only screen and (max-width: 414px) {
+  body .wrapper #body #maincontent .topwrapper div #box1 {
+    width: 100%;
+    margin-top: 525px; } }
+
+/*# sourceMappingURL=syle.css.map */

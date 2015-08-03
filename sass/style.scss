@@ -13,8 +13,8 @@ body {
 }
 
 body{
-    #wrapper {
-
+    .wrapper {
+      #body {
         @media only screen and (max-width: 414px) {
             a:after {
                 content: "CISC";
@@ -25,7 +25,6 @@ body{
 
         .bigtitle {
             background-color: $titleBGC;
-            
             background:-webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
             @media only screen and (min-width: 420px) {
                 a:before {
@@ -34,16 +33,8 @@ body{
                     margin-left: 35%;
                 }   
             }
-            /**/
         }
-        @each $item in div {
-
-            @each $row in ul {
-                 $color: $UDyellow;
-                border-bottom: 1px solid #fff;
-            }
-        }
-
+      }
     }
 }
 
@@ -67,26 +58,7 @@ body {
     }
 }
 
-/*.gallery {
-  background: #EEE;
-}
 
-.gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  counter-increment: gallery-cell;
-}
-
- cell number 
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}*/
 
 
 
