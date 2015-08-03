@@ -73,7 +73,7 @@ body {
         text-decoration: none;
         font-size: 15px; } }
 /* Sass allows nesting, but do not get to carried away
- *   or things will not work properly
+ *   or things will not work properly.
  */
 body .wrapper .bigtitle {
   border-top-left-radius: 10px;

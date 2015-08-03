@@ -1,6 +1,12 @@
 # ResponsiveCSS
 Targeting HTML tags with CSS selectors, will covert a static non-responsive website to a fully functional responsive website
 
+# Quick Starting Points
+* It is best viewed in the Device console within a javascript console in your browser.  
+* I am starting at the iPhone6+ screen size pixel wise for now (414px X 736px).
+* I only implemented the title for a horizontal screen rotation which will be a starting rule for landscape view.
+* Cross-browser compatability is not implemented yet, works for Chrome.
+
 I am using the Sass (Sytanctically Awesome Style Sheets) extension for CSS.  Sass gives functionality such as: @media, @mixin,
 @content, $variables, breakpoints, functions, and nesting among many more.  
 
