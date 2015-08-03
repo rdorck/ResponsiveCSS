@@ -1,5 +1,6 @@
 /* variables, Sass*/
 /* global mixins, Sass*/
+/* nav menu button was clicked -> drop down nav menu styles activated */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -9,13 +10,20 @@ body {
   background-image: url(../images/bg2bk.jpg);
   background-repeat: repeat-x; }
 
+/* checkbox allows determinig status of menu button clicked || ! */
 [type="checkbox"], label {
   display: none; }
 
 @media only screen and (max-width: 414px) {
-  nav ul {
-    display: none; }
+  /* @include calls in our @mixin from above */
+  [type="checkbox"]:checked ~ ul {
+    display: block;
+    z-index: 9999;
+    position: relative;
+    right: 20px;
+    left: 20px; }
 
+  /* styles menu icon */
   label {
     display: block;
     background: none;
@@ -26,6 +34,7 @@ body {
     left: 8px;
     top: 85px; }
 
+  /* styles menu icon internal 3 horizontal bars*/
   label:after {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -37,30 +46,32 @@ body {
     margin: 7px 5px;
     box-shadow: 0px 10px 0px #ffd200, 0px 20px 0px #ffd200; }
 
-  [type="checkbox"]:checked ~ ul {
-    display: block;
-    z-index: 9999;
-    position: absolute;
-    right: 20px;
-    left: 20px; }
-
-  nav a {
-    color: #ffd200; }
-
-  nav ul li {
-    display: block;
-    float: none;
-    width: 414px;
-    text-align: left;
-    background: #003877;
-    text-align: center; }
-
-  nav > ul > li {
-    margin-left: 0px; }
-
-  nav > ul li ul li {
-    display: block;
-    float: none; } }
+  nav ul {
+    display: none;
+    padding-bottom: 165px;
+    margin-top: 0px; }
+    nav ul li {
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #ffdd00;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-color: #003877;
+      display: block;
+      float: right;
+      padding-top: 5px;
+      margin-right: 18px;
+      width: 400px;
+      height: 30px;
+      background: #ffdd00;
+      text-align: center;
+      font-weight: bold; }
+      nav ul li a {
+        color: #003877;
+        text-decoration: none;
+        font-size: 15px; } }
 /* Sass allows nesting, but do not get to carried away
  *   or things will not work properly
  */
@@ -68,10 +79,7 @@ body .wrapper .bigtitle {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: #003877;
-  background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
-  border-bottom-width: 4px;
-  border-bottom-style: solid;
-  border-bottom-color: #ffdd00; }
+  background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877)); }
   @media only screen and (min-width: 420px) {
     body .wrapper .bigtitle a:before {
       content: "Computer & Information Sciences";
@@ -83,10 +91,15 @@ body .wrapper .bigtitle {
       margin-left: 20%; } }
 
   @media only screen and (max-width: 418px) {
-    body .wrapper .bigtitle a:after {
-      content: "CISC";
-      font-size: 50px;
-      margin-left: 35%; } }
+    body .wrapper .bigtitle {
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #ffdd00;
+      border-bottom-width: 4px; }
+      body .wrapper .bigtitle a:after {
+        content: "CISC";
+        font-size: 50px;
+        margin-left: 35%; } }
 
 @media only screen and (max-width: 414px) {
   body .wrapper #body #maincontent .topwrapper div #box1 {

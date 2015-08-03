@@ -1,5 +1,6 @@
 /* variables, Sass*/
 $UDyellow: #ffd200;
+$brighterUDyellow: rgb(255, 221, 0); 
 $titleBGC: #003877;
 
 /* global mixins, Sass*/
@@ -9,9 +10,33 @@ $titleBGC: #003877;
     margin-left: 35%;
 }
 
+@mixin elipses {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 @mixin topRound_10 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+@mixin bottomYellowBorder {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: $brighterUDyellow;
+}
+
+/* nav menu button was clicked -> drop down nav menu styles activated */
+@mixin checked {
+    [type="checkbox"]:checked ~ ul {
+        display: block;
+        z-index: 9999;
+        position: relative;
+        right: 20px;
+        left: 20px;
+    }
 }
 
 * {
@@ -25,14 +50,15 @@ body {
     background-repeat:repeat-x;
 }
 
+/* checkbox allows determinig status of menu button clicked || ! */
 [type="checkbox"], label {
       display: none;
 }
 @media only screen and (max-width: 414px) { 
-    nav ul {
-              display: none;
-    }
+    /* @include calls in our @mixin from above */
+    @include checked;
 
+    /* styles menu icon */
     label {
         display: block;
         background: none;
@@ -43,7 +69,8 @@ body {
         left: 8px;
         top: 85px;
     }
-      
+    
+    /* styles menu icon internal 3 horizontal bars*/  
     label:after {
         @include topRound_10;
         content:'';
@@ -54,35 +81,31 @@ body {
         margin: 7px 5px;
         box-shadow: 0px 10px 0px $UDyellow, 0px 20px 0px $UDyellow;
     }
+    nav ul {
+        display: none;
+        padding-bottom: 165px;
+        margin-top: 0px;
 
-    [type="checkbox"]:checked ~ ul {
-        display: block;
-        z-index: 9999;
-        position: absolute;
-        right: 20px;
-        left: 20px;
-    }
+        li {
+            @include bottomYellowBorder;
+            @include elipses;
+            border-bottom-color: $titleBGC;
+            display: block;
+            float: right;
+            padding-top: 5px;
+            margin-right: 18px;
+            width: 400px;
+            height: 30px;
+            background: $brighterUDyellow;
+            text-align: center;
+            font-weight: bold;
 
-    nav a {
-        color: $UDyellow;
-    }
-
-    nav ul li {
-        display: block;
-        float: none;
-        width: 414px;
-        text-align: left;
-        background: $titleBGC;
-        text-align: center;
-    }
-
-    nav > ul > li {
-        margin-left: 0px;
-    }
-
-    nav > ul li ul li {
-        display: block;
-        float: none;
+            a {
+                color: $titleBGC;
+                text-decoration: none;
+                font-size: 15px;
+            }
+        }
     }
 }
 
@@ -96,9 +119,6 @@ body {
             @include topRound_10;
             background-color: $titleBGC;
             background:-webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
-            border-bottom-width: 4px;
-            border-bottom-style: solid;
-            border-bottom-color: rgb(255, 221, 0);
             @media only screen and (min-width: 420px) {
                 a:before {
                     content: "Computer & Information Sciences";
@@ -110,6 +130,8 @@ body {
                 }   
             }
             @media only screen and (max-width: 418px) {
+                @include bottomYellowBorder;
+                border-bottom-width: 4px;
                 a:after {
                     content: "CISC";
                     @include titleSpacSiz;
