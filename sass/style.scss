@@ -145,6 +145,18 @@ body {
  *   or things will not work properly.
  */
 
+ body {
+    #UDStandardHeader {
+        #UDStandardHeader_LayoutContainer {
+            #UDStandardHeader_Toolbar {
+                @media only screen and (max-width: 418px) {
+                    display:none;
+                }
+            }
+        }
+    }
+}
+
 body {
     .wrapper {
         .bigtitle {
@@ -247,6 +259,15 @@ body {
     }
 }
 
+body {
+    .wrapper {
+        #body {
+            #sidebar {
+                display: none;
+            }
+        }
+    }
+}
 
 
 

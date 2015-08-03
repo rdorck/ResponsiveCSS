@@ -26,6 +26,20 @@
 			<div id="UDStandardHeader_LogoStandin">
 				<a href="http://www.engr.udel.edu/" title="UD College of Engineering"><img src="images/udcoelogo.jpg" alt="University of Delaware - College of Engineering" height="60" width="385"></a>
 			</div>
+			<div id="UDStandardHeader_Toolbar">
+				<div="UDStandardHeader_GSA">
+					<form method="get" action="http://gsa1.udel.edu/search" name="search">
+						<input id="UDSearchButton" src="http://www.udel.edu/modules/blueheader-930px/images/search.gif" alt="Search" value="Search" type="image" align="middle"><label for="UDSearchField" class="labelfield">Search UD</label>
+						<input id="UDSearchField" name="q" size="24" maxlength="256" value="Powered by Google" onfocus="UDGSAFormFieldFocus(this)" onblur="UDGSAFormFieldBlur(this)" type="text">
+						<input type="radio" name="as_sitesearch" value="http://www.cis.udel.edu/" checked="checked" id="Search_CIS"><span style="color:#eee; font:10px Arial, Helvetica, sans-serif"><label for="Search_CIS">Search CIS</label><br>
+						<input type="radio" name="as_sitesearch" id="Search_UD" value=""><label for="Search_UD">UD</label></span>
+						<input type="hidden" name="site" value="UDel">
+						<input type="hidden" name="client" value="default_frontend">
+						<input type="hidden" name="output" value="xml_no_dtd">
+						<input type="hidden" name="proxystylesheet" value="default_frontend">
+					</form>
+				</div>
+			</div>
 		</div> 
 	</div> <!-- #UDStandardHeader -->
 
@@ -245,38 +259,55 @@
 			<!--END content-->
 			<!--BEGIN sidebar-->
 			<div id="sidebar">
-			<!--begin popular news-->
-			<div style="float:right; padding:10px 5px 30px 5px">
-			<a href="/downloads/GradRecruiting.pdf" target="_blank"><img src="/images/GradRecruiting.jpg" height="185" width="240" alt="Graduate Program"></a>
+				<!--begin popular news-->
+				<div style="float:right; padding:10px 5px 30px 5px">
+				<a href="downloads/GradRecruiting.pdf" target="_blank"><img src="images/GradRecruiting.jpg" height="185" width="240" alt="Graduate Program"></a>
+				</div>
+				<h1 style="padding-top:20px">CIS Events</h1>
+				<div class="post">
+
+				<!-- <script type="text/javascript" src="http://events.udel.edu/widget/view?schools=udel&days=365&num=3&hideimage=true&hidedesc=true&groups=cis&require_all=false&style=none"></script> -->
+
+
+				<script type="text/javascript">
+				document.write("<style type=\"text/css\" media=\"screen\"> #lw { width:100%;font-family:arial;overflow:hidden;} #lw ul {list-style:none;} #lw li.lwe {padding:10px;border-bottom: 1px dotted #ccc;} .lwn {font-weight:bold;color:white;font-size:16px;line-height:19px;overflow:hidden;} .lwn0 {font-weight:normal;float:right;font-size:14px;color:white;} .lwd {padding-top: 5px;color:white;font-size:12px;line-height:15px;overflow:hidden;} .lwi0 {float:left;padding:2px 6px 0px 0px;margin:0;} .lwi1 {float:left;padding:0px 6px 0px 0px;margin:0;} .lwl{ font-weight:bold;padding-top:5px;color:white;font-size:12px;line-height:14px;overflow:hidden;clear:both;} .lwl0 {font-weight:normal;padding-right:3px;} .lwi { padding:2px; border: 1px solid #ccc; } </style> <!-- logged in --> <div id=lw> <div class=lw> <ul id=lwe> <li>No near term seminars scheduled</li> </ul> </div> </div>");
+				</script><style type="text/css" media="screen"> #lw { width:100%;font-family:arial;overflow:hidden;} #lw ul {list-style:none;} #lw li.lwe {padding:10px;border-bottom: 1px dotted #ccc;} .lwn {font-weight:bold;color:white;font-size:16px;line-height:19px;overflow:hidden;} .lwn0 {font-weight:normal;float:right;font-size:14px;color:white;} .lwd {padding-top: 5px;color:white;font-size:12px;line-height:15px;overflow:hidden;} .lwi0 {float:left;padding:2px 6px 0px 0px;margin:0;} .lwi1 {float:left;padding:0px 6px 0px 0px;margin:0;} .lwl{ font-weight:bold;padding-top:5px;color:white;font-size:12px;line-height:14px;overflow:hidden;clear:both;} .lwl0 {font-weight:normal;padding-right:3px;} .lwi { padding:2px; border: 1px solid #ccc; } </style> <!-- logged in --> <div id="lw"> <div class="lw"> <ul id="lwe"> <li>No near term seminars scheduled</li> </ul> </div> </div>
+
+				<ul style="padding-bottom:10px">
+				<li>
+				<a href="about/events.html">Departmental Calender</a></li>
+
+				<li>
+				  <a href="seminars/index.html">Distinquished Speaker Series</a>
+				</li>
+
+				<li>
+				  <a href="http://www.engr.udel.edu/home/list_events.html"><em>All CoE Events</em></a>
+				</li>
+
+				<li>
+				  <a href="http://events.udel.edu"><em>All UD Events</em></a>
+				</li>
+
+
+				</ul>
+				</div>
+
+				<div>
+				<h1>CIS Resources for</h1>
+				<ul style="padding-bottom:10px">
+				<li><a href="resources/faculty.html" target="_self">Faculty</a></li>
+				<li><a href="resources/staff.html" target="_self">Staff</a></li>
+				<li><a href="graduate/quicklinks.html">Graduate Students</a></li>
+				<li><a href="resources/ugrad.html" target="_self">Undergrad Students</a></li>
+				</ul>
+
+				<br><br>
+				</div>
+				<!--end post-->
+				<!--end tags-->
+				<!--END right-->
 			</div>
-			<h1 style="padding-top:20px">CIS Events</h1>
-			<div class="post">
-
-			<!-- <script type="text/javascript" src="http://events.udel.edu/widget/view?schools=udel&days=365&num=3&hideimage=true&hidedesc=true&groups=cis&require_all=false&style=none"></script> -->
-
-
-			<script type="text/javascript">
-			document.write("<style type=\"text/css\" media=\"screen\"> #lw { width:100%;font-family:arial;overflow:hidden;} #lw ul {list-style:none;} #lw li.lwe {padding:10px;border-bottom: 1px dotted #ccc;} .lwn {font-weight:bold;color:white;font-size:16px;line-height:19px;overflow:hidden;} .lwn0 {font-weight:normal;float:right;font-size:14px;color:white;} .lwd {padding-top: 5px;color:white;font-size:12px;line-height:15px;overflow:hidden;} .lwi0 {float:left;padding:2px 6px 0px 0px;margin:0;} .lwi1 {float:left;padding:0px 6px 0px 0px;margin:0;} .lwl{ font-weight:bold;padding-top:5px;color:white;font-size:12px;line-height:14px;overflow:hidden;clear:both;} .lwl0 {font-weight:normal;padding-right:3px;} .lwi { padding:2px; border: 1px solid #ccc; } </style> <!-- logged in --> <div id=lw> <div class=lw> <ul id=lwe> <li>No near term seminars scheduled</li> </ul> </div> </div>");
-			</script><style type="text/css" media="screen"> #lw { width:100%;font-family:arial;overflow:hidden;} #lw ul {list-style:none;} #lw li.lwe {padding:10px;border-bottom: 1px dotted #ccc;} .lwn {font-weight:bold;color:white;font-size:16px;line-height:19px;overflow:hidden;} .lwn0 {font-weight:normal;float:right;font-size:14px;color:white;} .lwd {padding-top: 5px;color:white;font-size:12px;line-height:15px;overflow:hidden;} .lwi0 {float:left;padding:2px 6px 0px 0px;margin:0;} .lwi1 {float:left;padding:0px 6px 0px 0px;margin:0;} .lwl{ font-weight:bold;padding-top:5px;color:white;font-size:12px;line-height:14px;overflow:hidden;clear:both;} .lwl0 {font-weight:normal;padding-right:3px;} .lwi { padding:2px; border: 1px solid #ccc; } </style> <!-- logged in --> <div id="lw"> <div class="lw"> <ul id="lwe"> <li>No near term seminars scheduled</li> </ul> </div> </div>
-
-
-			</div>
-
-			<!--end post-->
-			<!--end tags-->
-			<!--END right-->
-			</div>
-			<!--END sidebar-->
-			<div class="break"></div>
-			<!--END body-->
-
-			<br clear="all">
-			<div id="UDStandardFooter">
-			<div id="UDStandardFooter_LayoutContainer">
-
-
-			<br class="udclearfloat">
-			</div></div></div>
 
 	</div> <!-- #wrapper --> 
 

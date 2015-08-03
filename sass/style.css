@@ -75,6 +75,10 @@ body {
 /* Sass allows nesting, but do not get to carried away
  *   or things will not work properly.
  */
+@media only screen and (max-width: 418px) {
+  body #UDStandardHeader #UDStandardHeader_LayoutContainer #UDStandardHeader_Toolbar {
+    display: none; } }
+
 body .wrapper .bigtitle {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -189,5 +193,8 @@ body .wrapper #body #content {
           font-size: 20px; }
       body .wrapper #body #maincontent .topwrapper div #box3 a {
         color: #003877; } }
+
+body .wrapper #body #sidebar {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
