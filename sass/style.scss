@@ -1,7 +1,8 @@
 /* variables, Sass*/
 $UDyellow: #ffd200;
 $brighterUDyellow: rgb(255, 221, 0); 
-$titleBGC: #003877;
+$UDblue: #003877;
+$ivory: #FFFFF0;
 
 /* global mixins, Sass*/
 
@@ -34,12 +35,30 @@ $titleBGC: #003877;
     border-bottom-style: solid;
     border-bottom-color: $brighterUDyellow;
 }
+@mixin bottomBlueBorder {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: $UDblue;
+}
+
 
 @mixin SideBox {
     width:100%;
     height: 100%;
-    opacity: .6;
+    opacity: .8;
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        font-weight: bold;
+        a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
 }
+
 
 /* nav menu button was clicked -> drop down nav menu styles activated */
 @mixin checked {
@@ -102,7 +121,7 @@ body {
         li {
             @include bottomYellowBorder;
             @include elipses;
-            border-bottom-color: $titleBGC;
+            border-bottom-color: $UDblue;
             display: block;
             float: right;
             padding-top: 5px;
@@ -114,7 +133,7 @@ body {
             font-weight: bold;
 
             a {
-                color: $titleBGC;
+                color: $UDblue;
                 text-decoration: none;
                 font-size: 15px;
             }
@@ -130,7 +149,7 @@ body {
     .wrapper {
         .bigtitle {
             @include topRound_10;
-            background-color: $titleBGC;
+            background-color: $UDblue;
             background:-webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
             @media only screen and (min-width: 420px) {
                 a:before {
@@ -158,7 +177,12 @@ body {
     .wrapper {
         #body {
             #content {
+                background-color: $ivory;
                 .post {
+                    @include allRound_10;
+                    background-color: $UDblue;
+                    height: 100%;
+                    text-align: center;
                     .thumb {
                         img {
                             @media only screen and (max-width: 418px) {
@@ -166,7 +190,16 @@ body {
                                 width: 100%;
                             }
                         }
-
+                    }
+                    h2 {
+                        opacity: .8;
+                        a {
+                            color: $UDyellow;
+                            text-decoration: none;
+                        }
+                    }
+                    p {
+                        display: none;
                     }
                 }
             }
@@ -178,26 +211,28 @@ body {
     .wrapper{
         #body {
             #maincontent {
-                /**/
                 .topwrapper {
-                    @media only screen and (max-width: 418px) {
+                    @media only screen and (max-width: 416px) {
                         div {
                             width:100%;
                             #box1 {
                                 @include SideBox;
                                 @include allRound_10;
-                                background-color: #ea0;
+                                background-color: $UDyellow;
                                 margin-top: 545px;
+                                a { color: $UDblue; }
                             }
                             #box2 {
                                 @include SideBox;
                                 @include allRound_10;
-                                background-color: $titleBGC;
+                                background-color: $UDblue;
+                                a { color: $UDyellow; }
                             }
                             #box3 {
                                 @include SideBox;
                                 @include allRound_10;
-                                background-color: #ea0;
+                                background-color: $UDyellow;
+                                a { color: $UDblue; }
                             }
                         }
                     }

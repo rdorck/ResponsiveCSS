@@ -101,46 +101,91 @@ body .wrapper .bigtitle {
         font-size: 50px;
         margin-left: 35%; } }
 
-@media only screen and (max-width: 418px) {
-  body .wrapper #body #content .post .thumb img {
+body .wrapper #body #content {
+  background-color: #FFFFF0; }
+  body .wrapper #body #content .post {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 100%; } }
+    background-color: #003877;
+    height: 100%;
+    text-align: center; }
+    @media only screen and (max-width: 418px) {
+      body .wrapper #body #content .post .thumb img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 100%; } }
+    body .wrapper #body #content .post h2 {
+      opacity: .8; }
+      body .wrapper #body #content .post h2 a {
+        color: #ffd200;
+        text-decoration: none; }
+    body .wrapper #body #content .post p {
+      display: none; }
 
-body .wrapper #body #maincontent {
-  /**/ }
-  @media only screen and (max-width: 418px) {
-    body .wrapper #body #maincontent .topwrapper div {
-      width: 100%; }
-      body .wrapper #body #maincontent .topwrapper div #box1 {
-        width: 100%;
-        height: 100%;
-        opacity: .6;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        background-color: #ea0;
-        margin-top: 545px; }
-      body .wrapper #body #maincontent .topwrapper div #box2 {
-        width: 100%;
-        height: 100%;
-        opacity: .6;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        background-color: #003877; }
-      body .wrapper #body #maincontent .topwrapper div #box3 {
-        width: 100%;
-        height: 100%;
-        opacity: .6;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        background-color: #ea0; } }
+@media only screen and (max-width: 416px) {
+  body .wrapper #body #maincontent .topwrapper div {
+    width: 100%; }
+    body .wrapper #body #maincontent .topwrapper div #box1 {
+      width: 100%;
+      height: 100%;
+      opacity: .8;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #ffd200;
+      margin-top: 545px; }
+      body .wrapper #body #maincontent .topwrapper div #box1 h2 {
+        text-align: center; }
+      body .wrapper #body #maincontent .topwrapper div #box1 p {
+        text-align: center;
+        font-weight: bold; }
+        body .wrapper #body #maincontent .topwrapper div #box1 p a {
+          text-decoration: none;
+          font-size: 20px; }
+      body .wrapper #body #maincontent .topwrapper div #box1 a {
+        color: #003877; }
+    body .wrapper #body #maincontent .topwrapper div #box2 {
+      width: 100%;
+      height: 100%;
+      opacity: .8;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #003877; }
+      body .wrapper #body #maincontent .topwrapper div #box2 h2 {
+        text-align: center; }
+      body .wrapper #body #maincontent .topwrapper div #box2 p {
+        text-align: center;
+        font-weight: bold; }
+        body .wrapper #body #maincontent .topwrapper div #box2 p a {
+          text-decoration: none;
+          font-size: 20px; }
+      body .wrapper #body #maincontent .topwrapper div #box2 a {
+        color: #ffd200; }
+    body .wrapper #body #maincontent .topwrapper div #box3 {
+      width: 100%;
+      height: 100%;
+      opacity: .8;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #ffd200; }
+      body .wrapper #body #maincontent .topwrapper div #box3 h2 {
+        text-align: center; }
+      body .wrapper #body #maincontent .topwrapper div #box3 p {
+        text-align: center;
+        font-weight: bold; }
+        body .wrapper #body #maincontent .topwrapper div #box3 p a {
+          text-decoration: none;
+          font-size: 20px; }
+      body .wrapper #body #maincontent .topwrapper div #box3 a {
+        color: #003877; } }
 
 /*# sourceMappingURL=style.css.map */
