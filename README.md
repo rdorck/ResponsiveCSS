@@ -10,6 +10,8 @@ Targeting HTML tags with CSS selectors, will covert a static non-responsive webs
 I am using the Sass (Sytanctically Awesome Style Sheets) extension for CSS.  Sass gives functionality such as: @media, @mixin,
 @content, $variables, breakpoints, functions, and nesting among many more.  
 
+* Note: When dealing with nesting, one can not go to deep into nesting so to mitigate this Sass offers modules.  To start laying that out I have section the site by body.wrapper{} components followed by respective sections navigation, feature(not scaled correctly by apprx 200px), content, boxes, sidebar.
+
 Using this functionality we can locate, grab and modify HTML/HTML5 tags with CSS/CSS3.  These modifications will be specifically
 aimed towards tablets as well as mobile phones.  Basic ideas include: main nav icon button, main content layout orientated 
 vertically, slide in-out sidebars and other standard mobile layout ideologies. 
