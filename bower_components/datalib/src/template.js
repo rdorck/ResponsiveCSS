@@ -1,6 +1,5 @@
 var util = require('./util'),
-    d3_format = require('d3-format'),
-    d3_time_format = require('d3-time-format');
+    format = require('./format');
 
 var context = {
   formats:    [],
@@ -162,13 +161,13 @@ function template_var(text, variable, properties) {
         src = 'this.pad(' + strcall() + ',' + a + ',\'' + b + '\')';
         break;
       case 'number':
-        number_format(d3_format.format, 'number');
+        number_format(format.number, 'number');
         break;
       case 'time':
-        time_format(d3_time_format.format, 'time');
+        time_format(format.time, 'time');
         break;
       case 'time-utc':
-        time_format(d3_time_format.utcFormat, 'time-utc');
+        time_format(format.utc, 'time-utc');
         break;
       default:
         throw Error('Unrecognized template filter: ' + f);

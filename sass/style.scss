@@ -1,5 +1,18 @@
+/* variables, Sass*/
 $UDyellow: #ffd200;
 $titleBGC: #003877;
+
+/* global mixins, Sass*/
+
+@mixin titleSpacSiz {
+    font-size: 50px;
+    margin-left: 35%;
+}
+
+@mixin topRound_10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -12,31 +25,100 @@ body {
     background-repeat:repeat-x;
 }
 
-body{
-    .wrapper {
-      #body {
-        @media only screen and (max-width: 414px) {
-            a:after {
-                content: "CISC";
-                font-size: 50px;
-                margin-left: 35%;
-            }   
-        }
+[type="checkbox"], label {
+      display: none;
+}
+@media only screen and (max-width: 414px) { 
+    nav ul {
+              display: none;
+    }
 
+    label {
+        display: block;
+        background: none;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        position: absolute;
+        left: 8px;
+        top: 85px;
+    }
+      
+    label:after {
+        @include topRound_10;
+        content:'';
+        display: block;
+        width: 30px;
+        height: 5px;
+        background: $UDyellow;
+        margin: 7px 5px;
+        box-shadow: 0px 10px 0px $UDyellow, 0px 20px 0px $UDyellow;
+    }
+
+    [type="checkbox"]:checked ~ ul {
+        display: block;
+        z-index: 9999;
+        position: absolute;
+        right: 20px;
+        left: 20px;
+    }
+
+    nav a {
+        color: $UDyellow;
+    }
+
+    nav ul li {
+        display: block;
+        float: none;
+        width: 414px;
+        text-align: left;
+        background: $titleBGC;
+        text-align: center;
+    }
+
+    nav > ul > li {
+        margin-left: 0px;
+    }
+
+    nav > ul li ul li {
+        display: block;
+        float: none;
+    }
+}
+
+/* Sass allows nesting, but do not get to carried away
+ *   or things will not work properly
+ */
+
+body {
+    .wrapper {
         .bigtitle {
+            @include topRound_10;
             background-color: $titleBGC;
             background:-webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
+            border-bottom-width: 4px;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(255, 221, 0);
             @media only screen and (min-width: 420px) {
                 a:before {
                     content: "Computer & Information Sciences";
-                    font-size: 50px;
-                    margin-left: 35%;
+                    @include titleSpacSiz;
+                    @media screen and (orientation: landscape) {
+                        font-size: 30px;
+                        margin-left: 20%;
+                    }
                 }   
             }
+            @media only screen and (max-width: 418px) {
+                a:after {
+                    content: "CISC";
+                    @include titleSpacSiz;
+                }
+            }
         }
-      }
     }
 }
+
 
 body {
     .wrapper{
@@ -44,11 +126,10 @@ body {
             #maincontent {
                 .topwrapper {
                     @media only screen and (max-width: 414px) {
-
                         div {
-                            #box1{
+                            #box1 {
                                 width:100%;
-                                margin-top: 525px;
+                                margin-top: 545px;
                             }
                         }
                     }

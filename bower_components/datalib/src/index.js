@@ -1,16 +1,19 @@
 var util = require('./util');
 
 var dl = {
-  load:      require('./import/load'),
-  read:      require('./import/read'),
-  type:      require('./import/type'),
-  bins:      require('./bins/bins'),
-  $bin:      require('./bins/histogram').$bin,
-  groupby:   require('./aggregate/groupby'),
-  histogram: require('./bins/histogram').histogram,
-  print:     require('./print'),
-  template:  require('./template'),
-  time:      require('./time')
+  version:    '__VERSION__',
+  load:       require('./import/load'),
+  read:       require('./import/read'),
+  type:       require('./import/type'),
+  Aggregator: require('./aggregate/aggregator'),
+  groupby:    require('./aggregate/groupby'),
+  bins:       require('./bins/bins'),
+  $bin:       require('./bins/histogram').$bin,
+  histogram:  require('./bins/histogram').histogram,
+  format:     require('./format'),
+  print:      require('./print'),
+  template:   require('./template'),
+  time:       require('./time')
 };
 
 util.extend(dl, util);

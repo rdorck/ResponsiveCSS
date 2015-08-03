@@ -1,3 +1,5 @@
+/* variables, Sass*/
+/* global mixins, Sass*/
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -7,47 +9,88 @@ body {
   background-image: url(../images/bg2bk.jpg);
   background-repeat: repeat-x; }
 
-body #wrapper {
-  border-bottom: 1px solid #fff; }
-  @media only screen and (max-width: 414px) {
-    body #wrapper a:after {
+[type="checkbox"], label {
+  display: none; }
+
+@media only screen and (max-width: 414px) {
+  nav ul {
+    display: none; }
+
+  label {
+    display: block;
+    background: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 8px;
+    top: 85px; }
+
+  label:after {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #ffd200;
+    margin: 7px 5px;
+    box-shadow: 0px 10px 0px #ffd200, 0px 20px 0px #ffd200; }
+
+  [type="checkbox"]:checked ~ ul {
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    right: 20px;
+    left: 20px; }
+
+  nav a {
+    color: #ffd200; }
+
+  nav ul li {
+    display: block;
+    float: none;
+    width: 414px;
+    text-align: left;
+    background: #003877;
+    text-align: center; }
+
+  nav > ul > li {
+    margin-left: 0px; }
+
+  nav > ul li ul li {
+    display: block;
+    float: none; } }
+/* Sass allows nesting, but do not get to carried away
+ *   or things will not work properly
+ */
+body .wrapper .bigtitle {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #003877;
+  background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #ffdd00; }
+  @media only screen and (min-width: 420px) {
+    body .wrapper .bigtitle a:before {
+      content: "Computer & Information Sciences";
+      font-size: 50px;
+      margin-left: 35%; } }
+  @media only screen and (min-width: 420px) and (orientation: landscape) {
+    body .wrapper .bigtitle a:before {
+      font-size: 30px;
+      margin-left: 20%; } }
+
+  @media only screen and (max-width: 418px) {
+    body .wrapper .bigtitle a:after {
       content: "CISC";
       font-size: 50px;
       margin-left: 35%; } }
-  body #wrapper .bigtitle {
-    background-color: #003877;
-    background: -webkit-gradient(linear, left top, left bottom, from(#007AC2), to(#003877));
-    /**/ }
-    @media only screen and (min-width: 420px) {
-      body #wrapper .bigtitle a:before {
-        content: "Computer & Information Sciences";
-        font-size: 50px;
-        margin-left: 35%; } }
 
 @media only screen and (max-width: 414px) {
   body .wrapper #body #maincontent .topwrapper div #box1 {
     width: 100%;
-    margin-top: 525px; } }
-
-/*.gallery {
-  background: #EEE;
-}
-
-.gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  counter-increment: gallery-cell;
-}
-
- cell number 
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}*/
+    margin-top: 545px; } }
 
 /*# sourceMappingURL=style.css.map */
