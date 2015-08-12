@@ -129,8 +129,9 @@ body .wrapper #body #content {
       body .wrapper #body #content .post h2 a {
         color: #ffd200;
         text-decoration: none; }
-    body .wrapper #body #content .post p {
-      display: none; }
+    @media only screen and (max-width: 418px) {
+      body .wrapper #body #content .post p {
+        display: none; } }
 
 @media only screen and (max-width: 418px) {
   body .wrapper #body #maincontent .topwrapper div {
